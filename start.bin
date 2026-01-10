@@ -1,0 +1,2 @@
+cd /Users/x/Projects/my_fullstack_app/my_fullstack_app
+docker-compose up --build
