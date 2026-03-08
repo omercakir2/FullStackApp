@@ -46,6 +46,7 @@ footer {
     left: 0px;
     top: 0px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 100px;
     width: 100vw;
@@ -242,6 +243,85 @@ section {
     padding: 0 20px;
 }
 
+/* --- Mobil Uyumluluk Ayarları (Responsive) --- */
+/* Masaüstünde Hamburgeri Gizle */
+.menu-checkbox, .hamburger {
+    display: none;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+/* TEK VE NET MOBİL AYARI */
+@media (max-width: 768px) {
+    *{
+        font-size: 17px;
+    }
+    h2{
+        font-size: 28px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 20px;
+        height: 60px;
+    }
+
+    .hamburger {
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-self: flex-end;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: #0f172a;
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column; /* Alt alta dizilim burada */
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        transition: 0.4s ease;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        z-index: 99;
+    }
+
+    /* Menü Açma Mantığı */
+    .menu-checkbox:checked ~ .nav-links {
+        right: 0;
+    }
+
+    .navElement {
+        font-size: 20px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+
+    /* X Animasyonu */
+    .menu-checkbox:checked + .hamburger span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+    .menu-checkbox:checked + .hamburger span:nth-child(2) { opacity: 0; }
+    .menu-checkbox:checked + .hamburger span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+}
 /* Renk Değişkenleri - Aydınlık ve Modern */
 .first-color { background: #ffffff; }
 .second-color { background: #f8fafc; }

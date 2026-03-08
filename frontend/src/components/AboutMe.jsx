@@ -39,7 +39,7 @@ function AboutMe() {
         {/* LinkedIn - Klasik Mavi & Beyaz Yazı */}
         <Button 
           text="Linkedin" 
-          link="https://linkedin.com/in/omercakir" 
+          link="https://www.linkedin.com/in/%C3%B6mer-%C3%A7ak%C4%B1r-b0aa74284/" 
           bg_color="#0ea5e9" 
           svg_link="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1280px-LinkedIn_icon.svg.png"
           font_color="#ffffff"
@@ -48,7 +48,7 @@ function AboutMe() {
         {/* GitHub - Koyu Antrasit & Açık Gri Yazı */}
         <Button 
           text="GitHub" 
-          link="https://github.com/omercakir" 
+          link="https://github.com/omercakir2" 
           bg_color="#334155" 
           svg_link="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
           font_color="#f1f5f9"
@@ -59,7 +59,7 @@ function AboutMe() {
           text="Download Resume" 
           link="/omercakir_resume.pdf" 
           bg_color="#10b981" 
-          svg_link="https://www.svgrepo.com/show/491176/download-minimalist.svg"
+          svg_link="https://www.svgrepo.com/show/532034/cloud-arrow-down.svg"
           font_color="#ffffff"
         />
       </div>
