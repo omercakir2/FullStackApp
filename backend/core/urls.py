@@ -6,8 +6,7 @@ from django.http import JsonResponse
 def api_test(request):
     return JsonResponse({
         "durum": "Basarili",
-        "mesaj": "Django API'den selamlar!",
-        "teknoloji": ["Django", "React", "Docker", "PostgreSQL"]
+        "mesaj": "Django API'den selamlar!"
     })
 
 urlpatterns = [
