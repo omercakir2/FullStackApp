@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:5001/api/data')
       .then(res => res.json())
-      .then(data => console.log(data.message));
+      .then(data => console.log(data.message)); 
   }, []); 
   return (
     <div className="App">

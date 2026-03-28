@@ -5,7 +5,7 @@ function Card({ content, title , img_link}) {
           <span>
             {content} 
           </span>
-          <img src={img_link} alt="" />
+          <img src={img_link} alt=""  style={{margin:"10px"}}/>
         </div>
     
   );

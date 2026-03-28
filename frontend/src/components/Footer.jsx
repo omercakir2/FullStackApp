@@ -1,7 +1,9 @@
+import Card from "./Card"
+
 function Footer(){
     return(
        <footer>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi hic maiores perspiciatis provident perferendis voluptas. Dolor vel eum quidem pariatur, nisi recusandae? Debitis doloremque fuga, maiores doloribus iste illum.
+        I would be happy to meet you if you are reading this :)
        </footer>
     )
 }

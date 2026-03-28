@@ -1,34 +1,34 @@
 import { useState } from "react";
 import Card from "./Card";
+import ecom_demo from "/ecom_demo.png";
+import maqr_demo from "/maqr_demo.png";
+import attendance_demo from "/attendance_demo.png";
+import tap_demo from "/tap_demo.png";
 
 function Projects() {
   const myProjects = [
     {
       title: "E-commerce Project With Django",
       content: "A comprehensive full-stack marketplace built with Django",
-      img_link:
-        "https://github.com/omercakir2/E-commerce/raw/main/sample_pngs/v1.1.1/home_2.png",
+      img_link: ecom_demo,
     },
     {
       title: "MaQr - Dynamic QR Generator",
       content:
         "A sophisticated web application for generating and managing dynamic QR codes.",
-      img_link:
-        "https://github.com/omercakir2/MaQR/raw/main/sample_pngs/qr1.png",
+      img_link: maqr_demo,
     },
     {
       title: "Bilkent Attendance Counter",
       content:
         "A specialized Chrome Extension for Bilkent University’s STARS system, automating attendance tracking and providing real-time data for students.",
-      img_link:
-        "https://lh3.googleusercontent.com/jNjWCDfSZyZa0qae_uFqlPbBJaULLlGma1N72dsxWBMDkil50omUdH8E-qUeou1ZGAafsfbsmUAkHXDryqPvanDVr-0=s1280-w1280-h800",
+      img_link: attendance_demo,
     },
     {
       title: "Tap the Black Tiles",
       content:
         "An interactive, reflex-based web game developed using vanilla JavaScript, HTML5, and CSS3. Features dynamic DOM manipulation and optimized event handling for real-time user interaction and score tracking.",
-      img_link:
-        "https://github.com/omercakir2/FrontEnd_Project/blob/main/demo.png?raw=true",
+      img_link: tap_demo,
     },
   ];
 
