@@ -21,7 +21,11 @@ const contactLimiter = rateLimit({
 
 app.use(
   cors({
-    origin: "https://omercakirr.com", // Tüm adreslerden gelen isteklere izin ver
+    origin: ["https://omercakirr.com",
+            "http://localhost:5173",
+            "https://full-stack-app-three-omega.vercel.app/",
+            "https://www.omercakirr.com"
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
