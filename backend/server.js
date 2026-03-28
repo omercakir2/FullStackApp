@@ -21,7 +21,7 @@ const contactLimiter = rateLimit({
 
 app.use(
   cors({
-    origin: "*", // Tüm adreslerden gelen isteklere izin ver
+    origin: "https://omercakirr.com", // Tüm adreslerden gelen isteklere izin ver
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
