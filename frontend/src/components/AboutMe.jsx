@@ -73,7 +73,7 @@ function AboutMe() {
         {/* Resume - Canlı Yeşil & Beyaz Yazı */}
         <Button
           text="Download Resume"
-          link="http://localhost:5001/api/download-resume"
+          link={`${import.meta.env.VITE_API_URL}/api/download-resume`}
           bg_color="#10b981"
           svg_link="https://www.svgrepo.com/show/532034/cloud-arrow-down.svg"
           font_color="#ffffff"
