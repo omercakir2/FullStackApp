@@ -5,7 +5,7 @@ import me from "../../public/me.png";
 function AboutMe() {
   const handleDownload = () => {
     // Portu 5001 yaptıysan ona göre güncelle
-    window.location.href = "http://localhost:5001/api/download-resume";
+    window.location.href = `${import.meta.env.VITE_API_URL}/api/download-resume`;
   };
 
   
