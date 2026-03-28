@@ -21,7 +21,7 @@ function Contact() {
     };
 
     try {
-      const response = await fetch("http://localhost:5001/api/form/", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/form`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
