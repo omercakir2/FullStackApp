@@ -6,13 +6,16 @@ function Contact() {
   const messageRef = useRef();
 
   const [isLoading, setIsLoading] = useState(false);
+  const [charCount, setCharCount] = useState(0);
+
+  const handleMessageChange = (e) => {
+    setCharCount(e.target.value.length);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault(); // Sayfanın yenilenmesini engeller
 
     setIsLoading(true);
-
-
 
     const data = {
       name: nameRef.current.value,
@@ -28,23 +31,20 @@ function Contact() {
       });
 
       const result = await response.json();
-      
+
       if (response.ok) {
         alert("Message Send Successfully");
         e.target.reset(); // Formu temizler
-      }
-      else if (response.status === 429) {
-        alert(result.message); 
-      }
-      else{
-        alert("Something went wrong!");
+      } else if (response.status === 429) {
+        alert(result.message);
+      } else {
+        alert(result.error || "Something went wrong!");
       }
     } catch (error) {
-      console.error(JSON.stringify(error))
+      console.error(JSON.stringify(error));
       alert("Connection Error!");
     } finally {
       setIsLoading(false);
-
     }
   };
 
@@ -59,9 +59,13 @@ function Contact() {
         <input id="mail" ref={mailRef} type="email" required />
 
         <label htmlFor="message">Message</label>
-        <textarea id="message" ref={messageRef} required />
+        <textarea id="message" ref={messageRef} maxLength={500} required onChange={handleMessageChange} />
 
-        <button disabled={isLoading} type="submit" className="submit-btn" >
+        <div className="char-counter">
+          Characters remaining: <span>{500 - charCount}</span>
+        </div>
+
+        <button disabled={isLoading} type="submit" className="submit-btn">
           {isLoading ? "Wait..." : "Submit"}
         </button>
       </form>

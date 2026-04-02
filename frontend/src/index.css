@@ -3,11 +3,13 @@
     margin: 0px;
     font-size: 19px;
     /* Sisteme uygun, modern ve temiz bir font eklendi */
-    font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
-h2{
-  font-size: 45px;
+
+h2 {
+    font-size: 45px;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -16,8 +18,9 @@ html {
     display: flex;
     height: 100%;
     /* Çok hafif, ferah bir kırık beyaz arka plan */
-    background: #f8fafc; 
-    color: #334155; /* Okunabilirliği yüksek koyu gri metin */
+    background: #f8fafc;
+    color: #334155;
+    /* Okunabilirliği yüksek koyu gri metin */
     justify-content: center;
 }
 
@@ -30,7 +33,8 @@ html {
 }
 
 footer {
-    background-color: #f1f5f9; /* Hafif gri bir alt bilgi alanı */
+    background-color: #f1f5f9;
+    /* Hafif gri bir alt bilgi alanı */
     color: #64748b;
     text-align: center;
     padding: 20px;
@@ -41,7 +45,7 @@ footer {
     z-index: 50;
     padding: 12px;
     /* Ferah, buzlu beyaz cam efekti */
-    background-color: rgba(255, 255, 255, 0.85); 
+    background-color: rgba(255, 255, 255, 0.85);
     position: fixed;
     left: 0px;
     top: 0px;
@@ -52,7 +56,7 @@ footer {
     width: 100vw;
     align-items: center;
     border-bottom: 1px solid #e2e8f0;
-    backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px);
 }
 
 .navElement {
@@ -60,12 +64,14 @@ footer {
     color: #475569;
     padding: 8px 16px;
     border-radius: 6px;
-    font-weight: 500; /* Menü elemanları biraz daha belirgin */
+    font-weight: 500;
+    /* Menü elemanları biraz daha belirgin */
     transition: all 0.3s ease;
 }
 
 .navElement:hover {
-    color: #0f172a; /* Üzerine gelince tam koyulaşan metin */
+    color: #0f172a;
+    /* Üzerine gelince tam koyulaşan metin */
     background-color: #f1f5f9;
 }
 
@@ -84,29 +90,33 @@ footer {
     max-width: 500px;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
-    background: #ffffff; /* Kartlar tam beyaz, arka plandan öne çıkıyor */
+    background: #ffffff;
+    /* Kartlar tam beyaz, arka plandan öne çıkıyor */
     flex-grow: 1;
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card h2 {
-    color: #0f172a; /* Başlıklar net ve güçlü bir siyah/lacivert */
+    color: #0f172a;
+    /* Başlıklar net ve güçlü bir siyah/lacivert */
     margin-bottom: 12px;
     font-size: 30px;
     font-weight: 700;
 }
 
 .card:hover {
-    border-color: #0ea5e9; /* Hover durumunda canlı, ferah bir mavi */
+    border-color: #0ea5e9;
+    /* Hover durumunda canlı, ferah bir mavi */
     /* Gölge de aydınlık temaya uygun, daha yumuşak yapıldı */
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08); 
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
 }
 
 .centerText {
     text-align: center;
     margin: 20px 0;
     color: #0f172a;
-    font-weight: 700; /* Dikkat çekmesi için daha kalın */
+    font-weight: 700;
+    /* Dikkat çekmesi için daha kalın */
 }
 
 .contact-links {
@@ -117,55 +127,70 @@ footer {
 
 .contact-links a {
     text-decoration: none;
-    color: #0ea5e9; /* Gök mavisi */
+    color: #0ea5e9;
+    /* Gök mavisi */
     font-size: 17px;
     font-weight: 500;
     transition: color 0.2s;
 }
 
 .contact-links a:hover {
-    color: #0284c7; /* Hover'da daha belirgin bir mavi */
+    color: #0284c7;
+    /* Hover'da daha belirgin bir mavi */
 }
 
-.btn{
+.btn {
     padding: 5px;
     margin-top: 25px;
     border-radius: 15px;
-    border: 1px solid #0ea5e9; /* Buton çerçevesi canlı mavi */
+    border: 1px solid #0ea5e9;
+    /* Buton çerçevesi canlı mavi */
     background-color: #ffffff;
     color: #0ea5e9;
     font-weight: 600;
-    box-shadow: 0px 2px 8px rgba(14, 165, 233, 0.15); /* Hafif mavimsi ferah bir gölge */
+    box-shadow: 0px 2px 8px rgba(14, 165, 233, 0.15);
+    /* Hafif mavimsi ferah bir gölge */
     transition: all ease-in-out 0.3s;
 }
 
 
 img {
-    opacity: 0.95; /* Aydınlık temada resimler daha net olmalı, saydamlık azaltıldı */
+    opacity: 0.95;
+    /* Aydınlık temada resimler daha net olmalı, saydamlık azaltıldı */
     max-width: 100%;
-    height: auto; 
-    display: block; 
+    height: auto;
+    display: block;
 }
-a{
+
+a {
     text-decoration: none;
     color: #0f172a;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
-.btn{
+
+.btn {
     width: fit-content;
     padding: 20px;
 }
 
-.btn img{
+.btn img {
     width: 20px;
     height: 20px;
 
 }
+
 @keyframes scaleIn {
-    from { transform: scale(0.8); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 /* --- İletişim Formu Stilleri --- */
@@ -175,12 +200,15 @@ form {
     flex-direction: column;
     max-width: 500px;
     width: 100%;
-    margin: 0 auto 40px auto; /* Sayfada tam ortaya hizalar */
-    background: #ffffff; /* Temamıza uygun beyaz arka plan */
+    margin: 0 auto 40px auto;
+    /* Sayfada tam ortaya hizalar */
+    background: #ffffff;
+    /* Temamıza uygun beyaz arka plan */
     padding: 30px;
     border-radius: 12px;
     border: 1px solid #e2e8f0;
-    box-shadow: 0 4px 15px -3px rgba(0, 0, 0, 0.05); /* Formu zeminden hafifçe ayırır */
+    box-shadow: 0 4px 15px -3px rgba(0, 0, 0, 0.05);
+    /* Formu zeminden hafifçe ayırır */
     box-sizing: border-box;
 }
 
@@ -193,47 +221,54 @@ form label {
 }
 
 form label:first-of-type {
-    margin-top: 0; /* İlk etiketin üstündeki gereksiz boşluğu siler */
+    margin-top: 0;
+    /* İlk etiketin üstündeki gereksiz boşluğu siler */
 }
 
-form input, 
+form input,
 form textarea {
-    font-family: inherit; /* Sayfanın modern fontunu miras alır */
+    font-family: inherit;
+    /* Sayfanın modern fontunu miras alır */
     padding: 12px 16px;
     font-size: 16px;
     border: 1px solid #cbd5e1;
     border-radius: 8px;
-    background-color: #f8fafc; /* Hafif gri-beyaz zemin */
+    background-color: #f8fafc;
+    /* Hafif gri-beyaz zemin */
     color: #334155;
     transition: all 0.3s ease;
 }
 
 /* Kullanıcı input'a tıkladığında (Focus) oluşan tatlı mavi parlama efekti */
-form input:focus, 
+form input:focus,
 form textarea:focus {
     outline: none;
     border-color: #0ea5e9;
     background-color: #ffffff;
-    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15); /* Sitenin temasına uygun gökyüzü mavisi */
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+    /* Sitenin temasına uygun gökyüzü mavisi */
 }
 
 /* Mesaj kutusunun daha geniş görünmesi için */
 form textarea {
     min-height: 120px;
-    resize: vertical; /* Sadece yukarı aşağı boyutlandırılabilir */
+    resize: vertical;
+    /* Sadece yukarı aşağı boyutlandırılabilir */
 }
 
 /* Form Gönder Butonu İçin Ekstra Ayar */
-form .submit-btn {
+/* form .submit-btn {
     margin-top: 25px;
     padding: 12px;
     font-size: 16px;
     width: 100%;
-}
+} */
 
 section {
-    padding: 100px 0; /* Bölümler arası nefes alsın */
-    border-bottom: 1px solid #f1f5f9; /* Çok hafif bir ayrım çizgisi */
+    padding: 100px 0;
+    /* Bölümler arası nefes alsın */
+    border-bottom: 1px solid #f1f5f9;
+    /* Çok hafif bir ayrım çizgisi */
 }
 
 /* Container sınırlayıcı */
@@ -245,20 +280,23 @@ section {
 
 /* --- Mobil Uyumluluk Ayarları (Responsive) --- */
 /* Masaüstünde Hamburgeri Gizle */
-.menu-checkbox, .hamburger {
+.menu-checkbox,
+.hamburger {
     display: none;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     flex-direction: row;
 }
 
 /* TEK VE NET MOBİL AYARI */
 @media (max-width: 768px) {
-    *{
+    * {
         font-size: 17px;
     }
-    h2{
+
+    h2 {
         font-size: 28px;
     }
 
@@ -296,17 +334,18 @@ section {
         height: 100vh;
         background-color: white;
         display: flex;
-        flex-direction: column; /* Alt alta dizilim burada */
+        flex-direction: column;
+        /* Alt alta dizilim burada */
         align-items: center;
         justify-content: flex-start;
         gap: 30px;
         transition: 0.4s ease;
-        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
         z-index: 99;
     }
 
     /* Menü Açma Mantığı */
-    .menu-checkbox:checked ~ .nav-links {
+    .menu-checkbox:checked~.nav-links {
         right: 0;
     }
 
@@ -318,12 +357,73 @@ section {
     }
 
     /* X Animasyonu */
-    .menu-checkbox:checked + .hamburger span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
-    .menu-checkbox:checked + .hamburger span:nth-child(2) { opacity: 0; }
-    .menu-checkbox:checked + .hamburger span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+    .menu-checkbox:checked+.hamburger span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .menu-checkbox:checked+.hamburger span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-checkbox:checked+.hamburger span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
+
 /* Renk Değişkenleri - Aydınlık ve Modern */
-.first-color { background: #ffffff; }
-.second-color { background: #f8fafc; }
-.third-color { background: #0ea5e9; }
-.fourth-color { background: #0f172a; }
+.first-color {
+    background: #ffffff;
+}
+
+.second-color {
+    background: #f8fafc;
+}
+
+.third-color {
+    background: #0ea5e9;
+}
+
+.fourth-color {
+    background: #0f172a;
+}
+
+.submit-btn {
+    margin: 8px;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 7500;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.submit-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.submit-btn:hover {
+    color: #e8e8e8;
+    cursor: pointer;
+}
+
+.submit-btn:hover::before {
+    width: 100%;
+}
