@@ -19,6 +19,7 @@ const contactLimiter = rateLimit({
   message: "Çok fazla istek gönderdiniz, lütfen 15 dakika sonra tekrar deneyin."
 });
 
+app.set('trust proxy', 1);
 
 app.use(
   cors({
@@ -59,7 +60,7 @@ app.get("/api/data", (req, res) => {
 });
 app.post("/api/form",contactLimiter, async (req, res) => {
 
-  const { name, email, message } = req.body;
+  const { name, mail, message } = req.body;
 
   try {
 
