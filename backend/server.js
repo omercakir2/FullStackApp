@@ -1,7 +1,8 @@
-// require yerine import kullanıyoruz
+import 'dotenv/config'; 
 import express from "express";
 import cors from "cors";
 import path from 'path';
+import db from './db.js';
 import { fileURLToPath } from 'url';
 import rateLimit from 'express-rate-limit';
 
@@ -56,14 +57,22 @@ app.get("/", () => {
 app.get("/api/data", (req, res) => {
   res.json({ message: "Selam! Backend'den geliyorum." });
 });
-app.post("/api/form",contactLimiter, (req, res) => {
-  const { name, mail, message } = req.body;
+app.post("/api/form",contactLimiter, async (req, res) => {
 
-  console.log("Gelen İsim:", name);
-  console.log("Gelen Mail:", mail);
-  console.log("Gelen Mesaj:", message);
+  const { name, email, message } = req.body;
 
-  res.status(200).json({ message: "Data captured!" });
+  try {
+
+    const createdAt = new Date();
+
+    const query = 'INSERT INTO messages (name, email, message, created_at) VALUES (?, ?, ?, ?)';
+    const [result] = await db.execute(query, [name, email, message, createdAt]);
+
+    res.status(200).json({ success: true, id: result.insertId });
+  } catch (error) {
+    console.error("DB Error:", error);
+    res.status(500).json({ error: "Can't connect database" });
+  }
 });
 app.listen(PORT, () => {
   console.log(`Server on http://localhost:${PORT} .`);
