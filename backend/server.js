@@ -67,7 +67,7 @@ app.post("/api/form",contactLimiter, async (req, res) => {
     const createdAt = new Date();
 
     const query = 'INSERT INTO messages (name, email, message, created_at) VALUES (?, ?, ?, ?)';
-    const [result] = await db.execute(query, [name, email, message, createdAt]);
+    const [result] = await db.execute(query, [name, mail, message, createdAt]);
 
     res.status(200).json({ success: true, id: result.insertId });
   } catch (error) {
