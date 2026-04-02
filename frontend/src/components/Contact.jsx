@@ -40,6 +40,7 @@ function Contact() {
         alert("Something went wrong!");
       }
     } catch (error) {
+      console.error(JSON.stringify(error))
       alert("Connection Error!");
     } finally {
       setIsLoading(false);
