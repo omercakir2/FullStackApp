@@ -1,13 +1,13 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-size: 19px;
+    font-size: 17px;
     /* Sisteme uygun, modern ve temiz bir font eklendi */
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 42px;
 }
 
 html {
@@ -100,7 +100,7 @@ footer {
     color: #0f172a;
     /* Başlıklar net ve güçlü bir siyah/lacivert */
     margin-bottom: 12px;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 700;
 }
 
@@ -129,7 +129,7 @@ footer {
     text-decoration: none;
     color: #0ea5e9;
     /* Gök mavisi */
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     transition: color 0.2s;
 }

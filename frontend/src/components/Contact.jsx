@@ -65,7 +65,7 @@ function Contact() {
           Characters remaining: <span>{500 - charCount}</span>
         </div>
 
-        <button disabled={isLoading} type="submit" className="submit-btn">
+        <button disabled={isLoading} type="submit" className="submit-btn" >
           {isLoading ? "Wait..." : "Submit"}
         </button>
       </form>
