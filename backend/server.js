@@ -39,7 +39,7 @@ const __dirname = path.dirname(__filename);
 
 // İndirme Rotası
 app.get('/api/download-resume', (req, res) => {
-    const filePath = path.join(__dirname, 'assets', 'my-resume.pdf'); // Dosya yolun
+    const filePath = path.join(__dirname, 'assets', 'my_resume.pdf'); // Dosya yolun
     
     res.download(filePath, 'cv_Omer_Cakir.pdf', (err) => {
         if (err) {
