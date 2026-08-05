@@ -1,74 +1,91 @@
-import { useState } from "react";
-import Card from "./Card"
-import ProjectCard from "./ProjectCard"
-import ecom_demo from "/ecom_demo.png";
+import { useCallback, useState } from "react";
+import ProjectCard from "./ProjectCard";
+import ProjectExpand from "./ProjectExpand";
+import { useLanguage } from "../i18n/LanguageContext";
 import maqr_demo from "/maqr_demo.png";
 import attendance1 from "/attendance1.png";
 import attendance2 from "/attendance2.png";
 import tap_demo from "/tap_demo.png";
-import greenmarkt1 from "/greenmarkt1.png"
-import greenmarkt2 from "/greenmarkt2.png"
-import greenmarkt3 from "/greenmarkt3.png"
-import glut1 from "/glut1.png"
-import glut2 from "/glut2.png"
-import glut3 from "/glut3.png"
+import greenmarkt1 from "/greenmarkt1.png";
+import greenmarkt2 from "/greenmarkt2.png";
+import greenmarkt3 from "/greenmarkt3.png";
+import glut1 from "/glut1.png";
+import glut2 from "/glut2.png";
+import glut3 from "/glut3.png";
+
+const projectMeta = [
+  {
+    img_link: [greenmarkt1, greenmarkt2, greenmarkt3],
+    link: "https://github.com/omercakir2/CTIS256_TERM_PROJECT",
+  },
+  {
+    img_link: [glut1, glut2, glut3],
+    link: "https://github.com/omercakir2/OpenGL",
+  },
+  {
+    img_link: [maqr_demo],
+    link: "https://github.com/omercakir2/MaQR",
+  },
+  {
+    img_link: [attendance1, attendance2],
+    link: "https://github.com/omercakir2/StarsAttendanceCalculator",
+  },
+  {
+    img_link: [tap_demo],
+    link: "https://github.com/omercakir2/FrontEnd_Project",
+  },
+];
 
 function Projects() {
-  const myProjects = [
-    {
-      title: "GreenMarkt",
-      content:
-        "Full-stack web application team project using Node.js,Express,EJS,Ajax for backend development course",
-      img_link: [greenmarkt1,greenmarkt2,greenmarkt3],
-      link:"https://github.com/omercakir2/CTIS256_TERM_PROJECT"
-    },
-    {
-      title: "Hitting the Ballons",
-      content: "Game developed using openGL and glut for Technical Mathematics with Programming course",
-      img_link: [glut1,glut2,glut3],
-      link: "https://github.com/omercakir2/OpenGL"
-    },
-    {
-      title: "Dynamic QR Generator",
-      content:
-        "A web application for generating and managing dynamic QR codes using Django",
-      img_link: [maqr_demo],
-      link:"https://github.com/omercakir2/MaQR"
-    },
-    {
-      title: "Bilkent Attendance Counter",
-      content:
-        "A Chrome Extension for Bilkent University’s STARS system, automating attendance tracking and providing real-time data for students.",
-      img_link: [attendance1,attendance2],
-      link:"https://github.com/omercakir2/StarsAttendanceCalculator"
-    },
-    {
-      title: "Tap the Black Tiles",
-      content:
-        "An interactive, reflex-based web game developed using vanilla JavaScript, HTML5, and CSS3 for frontend development course. Features dynamic DOM manipulation and optimized event handling for real-time user interaction and score tracking.",
-      img_link: [tap_demo],
-      link:"https://github.com/omercakir2/FrontEnd_Project"
-    }
-    
-  ];
+  const { t } = useLanguage();
+  const p = t.projects;
+  const [expanded, setExpanded] = useState(null);
+
+  const myProjects = p.items.map((item, i) => ({
+    ...item,
+    ...projectMeta[i],
+  }));
+
+  const closeExpand = useCallback(() => setExpanded(null), []);
 
   return (
-    <div id="projects">
-      <div>
-        <h2 className="centerText">Projects</h2>
-        <div className="cards">
-          {myProjects.map((p, i) => (
+    <section id="projects" className="section">
+      <div className="container">
+        <div className="projects-header">
+          <div>
+            <p className="section-label">{p.label}</p>
+            <h2 className="section-title">{p.title}</h2>
+            <p className="section-lead">{p.lead}</p>
+          </div>
+        </div>
+
+        <div className="projects-grid">
+          {myProjects.map((project) => (
             <ProjectCard
-              key={i}
-              title={p.title}
-              content={p.content}
-              img_link={p.img_link}
-              link={p.link}
+              key={project.link}
+              title={project.title}
+              content={project.content}
+              img_link={project.img_link}
+              expandLabel={p.expandLabel}
+              onOpen={() => setExpanded(project)}
             />
           ))}
         </div>
       </div>
-    </div>
+
+      {expanded && (
+        <ProjectExpand
+          key={expanded.link}
+          project={expanded}
+          onClose={closeExpand}
+          viewRepoLabel={p.viewRepo}
+          closeLabel={p.closeLabel}
+          prevLabel={p.prevImage}
+          nextLabel={p.nextImage}
+        />
+      )}
+    </section>
   );
 }
+
 export default Projects;
