@@ -3,14 +3,12 @@ import { useLanguage } from "../i18n/LanguageContext";
 
 const skills = [
   "React",
-  "Express.js",
-  "Node.js",
-  "JavaScript",
+  "Express.js / Node.js",
+  "Go",
   "Django",
   "EJS",
-  "Ajax",
   "OpenGL",
-  "HTML / CSS",
+  "HTML / CSS / JS",
   "DBMS",
   "Chrome Extensions",
 ];

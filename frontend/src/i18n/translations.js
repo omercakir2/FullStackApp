@@ -15,7 +15,7 @@ const translations = {
     },
     hero: {
       intro: "Ömer Çakır · CTIS, Bilkent University",
-      title: "I build software that solves real problems.",
+      title: "Ömer Çakır",
       subtitle:
         "Third year CTIS student focused on full-stack tools — from campus workflows to products people actually use. Currently open to internships and collaborations.",
       viewProjects: "View projects",
@@ -126,7 +126,7 @@ const translations = {
     },
     hero: {
       intro: "Ömer Çakır · CTIS, Bilkent Üniversitesi",
-      title: "Gerçek sorunlara çözüm üreten yazılımlar geliştiriyorum.",
+      title: "Ömer Çakır",
       subtitle:
         "Üçüncü sınıf CTIS öğrencisiyim. Kampüs iş akışlarından insanların gerçekten kullandığı ürünlere kadar full-stack araçlara odaklanıyorum. Staj ve iş birliklerine açığım.",
       viewProjects: "Projelere bak",
