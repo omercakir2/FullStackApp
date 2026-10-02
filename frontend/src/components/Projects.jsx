@@ -12,8 +12,15 @@ import greenmarkt3 from "/greenmarkt3.png";
 import glut1 from "/glut1.png";
 import glut2 from "/glut2.png";
 import glut3 from "/glut3.png";
+import network_0 from "/network_0.jpeg"
+import network_1 from "/network_1.jpeg"
+
 
 const projectMeta = [
+  {
+    img_link : [network_0,network_1],
+    link: "https://github.com/omercakir2/network_practices"
+  },
   {
     img_link: [greenmarkt1, greenmarkt2, greenmarkt3],
     link: "https://github.com/omercakir2/CTIS256_TERM_PROJECT",

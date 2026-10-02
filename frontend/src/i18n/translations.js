@@ -53,6 +53,10 @@ const translations = {
       nextImage: "Next image",
       items: [
         {
+          title : "Network Management System",
+          content: "Designed and built an end-to-end LAN network management stack using concurrent Go programming for device discovery and monitoring , TimescaleDB for time-series inventory, an LSTM model for forecasting, and an interactive graph UI."
+        },
+        {
           title: "GreenMarkt",
           content:
             "Full-stack web application team project using Node.js, Express, EJS, and Ajax for a backend development course.",
@@ -159,6 +163,10 @@ const translations = {
       prevImage: "Önceki görsel",
       nextImage: "Sonraki görsel",
       items: [
+        {
+          title : "Ağ Yönetim Sistemi",
+          content: "Cihaz keşfi ve izleme için eş zamanlı Go programlama, zaman serisi envanteri için TimescaleDB, tahmin için LSTM modeli ve etkileşimli grafik arayüzü kullanarak uçtan uca bir LAN ağ yönetim yığını"
+        },
         {
           title: "GreenMarkt",
           content:
