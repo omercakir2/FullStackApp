@@ -10,7 +10,7 @@ import {
 } from "react";
 
 /* v2: default is always browser/OS; only explicit light/dark overrides are stored */
-const STORAGE_KEY = "portfolio-theme-v2";
+const STORAGE_KEY = "observify-theme";
 const ThemeContext = createContext(null);
 
 function getSystemTheme() {
