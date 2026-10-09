@@ -1,14 +1,24 @@
-export default function Button({ text, link, svg_link, bg_color, font_color }) {
+export default function Button({ text, link, icon, variant = "text", tone }) {
+  const label = String(text);
+  const className =
+    variant === "icon"
+      ? `social-orb${tone ? ` social-orb-${tone}` : ""}`
+      : "social-btn";
+
   return (
     <a
       href={link || "#"}
-      className="social-btn"
-      style={{ backgroundColor: bg_color, color: font_color }}
+      className={className}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={variant === "icon" ? label : undefined}
     >
-      {svg_link && <img src={svg_link} alt="" />}
-      <span>{String(text)}</span>
+      {icon}
+      {variant === "icon" ? (
+        <span className="sr-only">{label}</span>
+      ) : (
+        <span>{label}</span>
+      )}
     </a>
   );
 }

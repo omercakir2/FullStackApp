@@ -67,13 +67,15 @@ function Projects() {
         </div>
 
         <div className="projects-grid">
-          {myProjects.map((project) => (
+          {myProjects.map((project, index) => (
             <ProjectCard
               key={project.link}
               title={project.title}
               content={project.content}
               img_link={project.img_link}
               expandLabel={p.expandLabel}
+              index={index}
+              featured={index === 0}
               onOpen={() => setExpanded(project)}
             />
           ))}
