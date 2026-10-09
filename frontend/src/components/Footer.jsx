@@ -1,33 +1,16 @@
-import content from "../content";
+import { useLanguage } from "../i18n/LanguageContext";
 
 function Footer() {
   const year = new Date().getFullYear();
-  const { product, company, email, footer } = content;
-  const mailto = `mailto:${email}`;
+  const { t } = useLanguage();
 
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <div className="footer-brand">
-          <p className="footer-name">
-            {product}
-            <span> · {company}</span>
-          </p>
-          <p className="footer-blurb">{footer.blurb}</p>
-          <p className="footer-copy">
-            © {year} {company}. {product}.
-          </p>
-        </div>
-
-        <div className="footer-meta">
-          <nav className="footer-links" aria-label="Legal">
-            <a href="#privacy">{footer.privacy}</a>
-            <a href="#terms">{footer.terms}</a>
-          </nav>
-          <a className="footer-email" href={mailto}>
-            {email}
-          </a>
-        </div>
+        <p className="footer-copy">
+          © {year} <strong>Ömer Çakır</strong>. {t.footer.crafted}
+        </p>
+        <p className="footer-note">{t.footer.note}</p>
       </div>
     </footer>
   );
