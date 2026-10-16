@@ -1,0 +1,122 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e11]:
+      - heading "Network" [level=1] [ref=e12]
+      - paragraph [ref=e13]: Topology
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: Subnet
+        - generic [ref=e17]: 192.168.10.0/24
+      - generic [ref=e18]:
+        - generic [ref=e19]: Interface
+        - generic [ref=e20]: eth0
+      - generic [ref=e21]:
+        - generic [ref=e22]: Last scan
+        - generic [ref=e23]: Aug 26, 05:00 PM
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - term [ref=e26]: Devices
+        - definition [ref=e27]: "10"
+      - generic [ref=e28]:
+        - term [ref=e29]: Up
+        - definition [ref=e30]: "9"
+      - generic [ref=e31]:
+        - term [ref=e32]: Down
+        - definition [ref=e33]: "1"
+      - generic [ref=e34]:
+        - term [ref=e35]: Links
+        - definition [ref=e36]: "10"
+    - generic [ref=e37]:
+      - button "Find a path between two nodes" [ref=e38] [cursor=pointer]: Find path
+      - button "Hide details panel" [pressed] [ref=e39] [cursor=pointer]: Inspector
+      - button "Could not reach the inventory API. Showing sample data. 500 Internal Server Error Click to retry." [ref=e40] [cursor=pointer]: Mock
+      - button "Switch to dark theme" [ref=e42] [cursor=pointer]
+  - generic [ref=e45]:
+    - searchbox [ref=e50]
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]: Type
+        - button "Network" [ref=e54] [cursor=pointer]
+        - button "Endpoint" [ref=e55] [cursor=pointer]
+        - button "Unknown" [ref=e56] [cursor=pointer]
+      - generic [ref=e57]:
+        - generic [ref=e58]: Status
+        - button "Up" [ref=e59] [cursor=pointer]
+        - button "Down" [ref=e61] [cursor=pointer]
+      - generic [ref=e63]:
+        - generic [ref=e64]: Brand
+        - button "Apple" [ref=e65] [cursor=pointer]
+        - button "Cisco" [ref=e66] [cursor=pointer]
+        - button "Dell" [ref=e67] [cursor=pointer]
+        - button "Juniper" [ref=e68] [cursor=pointer]
+        - button "Randomized MAC" [ref=e69] [cursor=pointer]
+        - button "Ruijie" [ref=e70] [cursor=pointer]
+        - button "TP-Link" [ref=e71] [cursor=pointer]
+        - button "Ubiquiti" [ref=e72] [cursor=pointer]
+    - generic [ref=e73]: 10/10
+  - generic [ref=e75]:
+    - application [ref=e77]:
+      - generic "Control Panel" [ref=e80]:
+        - button "Zoom In" [ref=e81] [cursor=pointer]
+        - button "Zoom Out" [ref=e84] [cursor=pointer]
+        - button "Fit View" [ref=e87] [cursor=pointer]
+      - img "Mini Map" [ref=e91]
+      - link "React Flow attribution" [ref=e93] [cursor=pointer]:
+        - /url: https://reactflow.dev/attribution
+        - text: React Flow
+    - complementary [ref=e95]:
+      - generic [ref=e97]:
+        - generic [ref=e98]: Inventory
+        - heading "Devices" [level=2] [ref=e99]
+      - paragraph [ref=e100]: Select a node on the map, or pick a row.
+      - list [ref=e101]:
+        - listitem [ref=e102]:
+          - button "gw-edge 192.168.10.1 · TP-Link" [ref=e103] [cursor=pointer]:
+            - generic [ref=e105]:
+              - generic [ref=e106]: gw-edge
+              - generic [ref=e107]: 192.168.10.1 · TP-Link
+        - listitem [ref=e108]:
+          - button "sw-core 192.168.10.2 · Juniper" [ref=e109] [cursor=pointer]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: sw-core
+              - generic [ref=e113]: 192.168.10.2 · Juniper
+        - listitem [ref=e114]:
+          - button "sw-access 192.168.10.3 · Juniper" [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]:
+              - generic [ref=e118]: sw-access
+              - generic [ref=e119]: 192.168.10.3 · Juniper
+        - listitem [ref=e120]:
+          - button "ap-east 192.168.10.4 · Ubiquiti" [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: ap-east
+              - generic [ref=e125]: 192.168.10.4 · Ubiquiti
+        - listitem [ref=e126]:
+          - button "sw-dist 192.168.10.5 · Cisco" [ref=e127] [cursor=pointer]:
+            - generic [ref=e129]:
+              - generic [ref=e130]: sw-dist
+              - generic [ref=e131]: 192.168.10.5 · Cisco
+        - listitem [ref=e132]:
+          - button "sw-lab 192.168.10.6 · Ruijie" [ref=e133] [cursor=pointer]:
+            - generic [ref=e135]:
+              - generic [ref=e136]: sw-lab
+              - generic [ref=e137]: 192.168.10.6 · Ruijie
+        - listitem [ref=e138]:
+          - button "mbp-anna 192.168.10.10 · Apple" [ref=e139] [cursor=pointer]:
+            - generic [ref=e141]:
+              - generic [ref=e142]: mbp-anna
+              - generic [ref=e143]: 192.168.10.10 · Apple
+        - listitem [ref=e144]:
+          - button "pc-lab 192.168.10.11 · Dell" [ref=e145] [cursor=pointer]:
+            - generic [ref=e147]:
+              - generic [ref=e148]: pc-lab
+              - generic [ref=e149]: 192.168.10.11 · Dell
+        - listitem [ref=e150]:
+          - button "phone-guest 192.168.10.12 · Randomized MAC" [ref=e151] [cursor=pointer]:
+            - generic [ref=e153]:
+              - generic [ref=e154]: phone-guest
+              - generic [ref=e155]: 192.168.10.12 · Randomized MAC
+        - listitem [ref=e156]:
+          - button "scanner-host 192.168.10.40 · Randomized MAC" [ref=e157] [cursor=pointer]:
+            - generic [ref=e159]:
+              - generic [ref=e160]: scanner-host
+              - generic [ref=e161]: 192.168.10.40 · Randomized MAC

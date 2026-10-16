@@ -1,0 +1,419 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: https://www.jonrodz.com/
+          - img "Jon Rodz Logo" [ref=e7]
+        - navigation [ref=e8]:
+          - link "Work" [ref=e9] [cursor=pointer]:
+            - /url: /work
+          - link "Journal" [ref=e10] [cursor=pointer]:
+            - /url: /journal
+          - link "About" [ref=e11] [cursor=pointer]:
+            - /url: /about
+          - link "Resume" [ref=e12] [cursor=pointer]:
+            - /url: https://cdn.prod.website-files.com/60b0631197f96ec9762765c7/682e91776c8df4ef3ce4af55_090f0d81b740a7bd4426d7c4901f8545_Jon%20Rodz%20Resume.pdf
+        - text: 
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Hi, i’m Jonathan Caleb Rodriguez,
+        - heading "Jon Rodz" [level=1] [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: A junior UX SCAD student, igniting thoughtful innovative designs with a spark of creativity.
+          - generic [ref=e22]:
+            - paragraph [ref=e23]: Previous UX design at
+            - img "Amazon, Adobe and H-E-B logos in black" [ref=e24]
+        - link [ref=e26] [cursor=pointer]:
+          - /url: "#Work"
+          - generic [ref=e27]:
+            - paragraph [ref=e28]: explore My work
+            - img "Arrow Icon" [ref=e30]
+      - img "Headshot image of Jon Rodz" [ref=e31]
+  - generic [ref=e33]:
+    - paragraph [ref=e34]: You found my student portfolio. See what I’m building now as a full-time product designer
+    - link [ref=e37] [cursor=pointer]:
+      - /url: https://jon.design/
+      - generic [ref=e38]:
+        - paragraph [ref=e39]:
+          - strong [ref=e40]: jon.design
+        - img "Small Right Arrow Icon" [ref=e42]
+  - generic [ref=e44]:
+    - generic [ref=e45]:
+      - heading "Work I’ve done" [level=2] [ref=e46]
+      - link [ref=e48] [cursor=pointer]:
+        - /url: /work
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: explore My work
+          - img "Small Right Arrow Icon" [ref=e52]
+    - generic [ref=e53]:
+      - link [ref=e54] [cursor=pointer]:
+        - /url: /adobe-express
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - heading "Adobe Express" [level=3] [ref=e58]
+            - paragraph [ref=e59]: UX Internship, 24’ — I designed mobile feature discovery & guidance using AI and play, shaping a new video editor experience.
+          - img "Long Right Arrow Icon" [ref=e61]
+      - link [ref=e62] [cursor=pointer]:
+        - /url: /clutch
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - heading "Clutch" [level=3] [ref=e66]
+            - paragraph [ref=e67]: SCAD Project, 23’ — Helping new restaurant owners navigate legal compliance.
+          - img "Long Right Arrow Icon" [ref=e69]
+      - link [ref=e70] [cursor=pointer]:
+        - /url: /stride
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - heading "STRIDE" [level=3] [ref=e74]
+            - paragraph [ref=e75]: SCAD Project, 23’ — Reimagining mobility solutions for the elderly to prevent falls and restore independence.
+          - img "Long Right Arrow Icon" [ref=e77]
+      - link [ref=e78] [cursor=pointer]:
+        - /url: /amazon-prime-air
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - heading "Amazon Prime Air" [level=3] [ref=e82]
+            - paragraph [ref=e83]: UX Internship, 23’ — Spearheaded redesigns and integrated new features to enhance the employee-drone experience.
+          - img "Long Right Arrow Icon" [ref=e85]
+      - link [ref=e86] [cursor=pointer]:
+        - /url: /paca
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - heading "Paca" [level=3] [ref=e90]
+            - paragraph [ref=e91]: SCAD Project, 23’ — Automates & gamifies family packing.
+          - img "Long Right Arrow Icon" [ref=e93]
+      - link [ref=e94] [cursor=pointer]:
+        - /url: /h-e-b-ux-design
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - heading "H-E-B" [level=3] [ref=e98]
+            - paragraph [ref=e99]: UX Internship, 22’ — Optimized designer onboarding with service blueprints.
+          - img "Long Right Arrow Icon" [ref=e101]
+      - link [ref=e102] [cursor=pointer]:
+        - /url: /cast-shop
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - heading "CAST Schools" [level=3] [ref=e106]
+              - paragraph [ref=e107]: Design internship, 21’ — Designed a shop, covering web & apparel design.
+            - img "Long Right Arrow Icon" [ref=e109]
+          - img "CAST Shop by Jon Rodz, CAST Schools" [ref=e110]
+  - generic [ref=e112]:
+    - heading "How I design" [level=2] [ref=e114]
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - img "Illustration/Symbol of a eye" [ref=e118]
+        - heading "A Designer’s Eye" [level=3] [ref=e120]
+      - generic [ref=e121]:
+        - img "Design of a flower" [ref=e123]
+        - heading "A Business Mind" [level=3] [ref=e125]
+      - generic [ref=e126]:
+        - img "Design of a heart" [ref=e128]
+        - heading "An Artist's Heart" [level=3] [ref=e130]
+      - generic [ref=e131]:
+        - img "Illustration/Symbol of a world" [ref=e133]
+        - heading "An Advocate's Voice" [level=3] [ref=e135]
+  - generic [ref=e137]:
+    - heading "What others say" [level=2] [ref=e139]
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - paragraph [ref=e144]:
+            - text: From the time Jon interviewed you could tell that he had a love for and knowledge of Human Centered Design. It was an easy decision to hire him.
+            - strong [ref=e145]: He carried that drive and passion
+            - text: through to his internship where he was put on to a design research effort centered around our onboarding program where he did a lot of great work.
+          - generic [ref=e146]:
+            - generic:
+              - img "Headshot photo of Jeremy Karney"
+            - generic [ref=e147]:
+              - paragraph [ref=e148]: Jeremy Karney
+              - paragraph [ref=e149]: Director of Design, H-E-B
+        - generic [ref=e150]:
+          - paragraph [ref=e152]:
+            - text: Huge Kudos to Jon for driving the UX exercise for the project.
+            - strong [ref=e153]: He showed great customer obsession and insisted on highest standards
+            - text: by iterating and evolving the UX designs for better customer experience.
+          - generic [ref=e154]:
+            - generic:
+              - img "Headshot photo of Mayank Kunawat"
+            - generic [ref=e155]:
+              - paragraph [ref=e156]: Mayank Kunawat
+              - paragraph [ref=e157]: SDE Manager, Amazon
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - paragraph [ref=e161]:
+            - text: It is rare that you come across standout talent like Jon. Jon stood out as a team leader and put his project management and design skills to the test. I was particularly
+            - strong [ref=e162]: impressed by Jon’s ability to command a room and get people on board with ideas
+            - text: while ensuring all voices are heard and ideas vetted.
+          - generic [ref=e163]:
+            - generic:
+              - img "Headshot photo of Sadie Bronk"
+            - generic [ref=e164]:
+              - paragraph [ref=e165]: Sadie Bronk
+              - paragraph [ref=e166]: CEO, Energy Bees & BEE Project
+        - generic [ref=e167]:
+          - paragraph [ref=e169]:
+            - text: I'm very impressed with Jon's UX design work. He developed an intuitive, simple, and flexible UX for our operations software based on inputs from stakeholders and customers.
+            - strong [ref=e170]: He demonstrated ownership by thinking long term
+            - text: and developing a product that will adapt to all types of changes.
+          - generic [ref=e171]:
+            - generic:
+              - img "Headshot photo of Trevor Swain"
+            - generic [ref=e172]:
+              - paragraph [ref=e173]: Trevor Swain
+              - paragraph [ref=e174]: Industrial Engineer II, Amazon
+      - generic [ref=e176]:
+        - paragraph [ref=e178]:
+          - text: Jon's dedication to understanding the needs of our associates have been evident through his proactive efforts to gather their input and delve into various resources to explore foundational product requirements. His holistic approach to the product has led him to initiate improvements that extend beyond its defined scope. Consistently, Jon has proactively sought assistance and remained receptive to feedback and critique, effectively overcoming obstacles in his path.
+          - strong [ref=e179]: Jon' dedication to customer-centric design process, ownership mentality, and results-driven approach will make him a valuable asset to any team.
+        - generic [ref=e180]:
+          - generic:
+            - img "Headshot photo of Alex Stremiakov"
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: Alex Stremiakov
+            - paragraph [ref=e183]: Senior UX Designer, Amazon
+  - generic [ref=e185]:
+    - heading "I may look familiar" [level=2] [ref=e187]
+    - generic [ref=e188]:
+      - link "Exit arrow icon Civic Tech Scholars tackle the city’s public works challenges with the help of AI Jul 29, 2025" [ref=e189] [cursor=pointer]:
+        - /url: https://sanantonioreport.org/civic-tech-scholars-tackle-public-issues-san-antonio/
+        - generic [ref=e190]:
+          - generic [ref=e191]:
+            - img "Exit arrow icon"
+          - generic [ref=e193]:
+            - heading "Civic Tech Scholars tackle the city’s public works challenges with the help of AI" [level=3] [ref=e195]
+            - paragraph [ref=e196]: Jul 29, 2025
+      - 'link "Exit arrow icon SCAD Spotlight: FLUX President, Jonathan Rodriguez May 22, 2025" [ref=e197] [cursor=pointer]':
+        - /url: https://scaddistrict.com/senior-spotlight-jonathan-rodriguez-took-a-motion-design-class-for-fun-and-almost-had-a-career-crisis/
+        - generic [ref=e198]:
+          - generic [ref=e199]:
+            - img "Exit arrow icon"
+          - generic [ref=e201]:
+            - 'heading "SCAD Spotlight: FLUX President, Jonathan Rodriguez" [level=3] [ref=e203]'
+            - paragraph [ref=e204]: May 22, 2025
+      - link "Exit arrow icon Educating this generation’s dreamers and makers Jul 12, 2024" [ref=e205] [cursor=pointer]:
+        - /url: https://www.fastcompany.com/91153131/educating-this-generations-dreamers-and-makers
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - img "Exit arrow icon"
+          - generic [ref=e209]:
+            - heading "Educating this generation’s dreamers and makers" [level=3] [ref=e211]
+            - paragraph [ref=e212]: Jul 12, 2024
+      - link [ref=e213] [cursor=pointer]:
+        - /url: https://schedule.sxsw.com/2022/events/PP1140090
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - img "Exit arrow icon"
+          - generic [ref=e216]:
+            - img "A photo of Jon Rodz on the SXSW stage"
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - img "SXSW logo"
+            - heading "Building a More Diverse Pipeline of Design Talent" [level=3] [ref=e219]
+            - paragraph [ref=e220]: Mar 13, 2022
+      - link [ref=e221] [cursor=pointer]:
+        - /url: https://npsiconference2022.us2.pathable.com/meetings/virtual/oJH532QHKdL4NNKnh
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - img "Exit arrow icon"
+          - generic [ref=e224]:
+            - img "A photo of Jon Rodz and Jeanne Russell for NPSI"
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - img "NPSI Conference Logo"
+            - heading "Maximizing Opportunities for Students by Preparing Them for Life" [level=3] [ref=e227]
+            - paragraph [ref=e228]: Mar 2, 2022
+      - link [ref=e229] [cursor=pointer]:
+        - /url: https://www.saisd.net/page/article/700
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - img "Exit arrow icon"
+          - generic [ref=e232]:
+            - img "Photo of Jon Rodz and Colleagues presenting"
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - img "SAISD Logo"
+            - heading "Graduates Take On Energy Savings at District" [level=3] [ref=e235]
+            - paragraph [ref=e236]: Sept 3, 2021
+      - link [ref=e237] [cursor=pointer]:
+        - /url: https://news4sanantonio.com/news/local/creating-jobs-of-the-future
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - img "Exit arrow icon"
+          - generic [ref=e240]:
+            - img "Photo of Jon Rodz being interviewed on camera"
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - img "News for San Antonio logo"
+            - heading "The next billion-dollar start up company could be in the works here in SA" [level=3] [ref=e243]
+            - paragraph [ref=e244]: Jul 11, 2021
+      - link [ref=e245] [cursor=pointer]:
+        - /url: https://blog.adobe.com/en/publish/2021/06/30/announcing-winners-2021-adobe-design-circle-scholarship
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - img "Exit arrow icon"
+          - generic [ref=e248]:
+            - img "A collection of Adobe Design Circle Scholars in a grid, Jon Rodz is pictured"
+          - generic [ref=e249]:
+            - generic [ref=e250]:
+              - img "Adobe Logo"
+            - heading "Announcing the Winners of the 2021 Adobe Design Circle Scholarship" [level=3] [ref=e251]
+            - paragraph [ref=e252]: Jun 30, 2021
+      - link [ref=e253] [cursor=pointer]:
+        - /url: https://news4sanantonio.com/news/local/say-si-summer-programs
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - img "Exit arrow icon"
+          - generic [ref=e256]:
+            - img "A screenshot of Jon Rodz being interviewed"
+          - generic [ref=e257]:
+            - generic [ref=e258]:
+              - img "News for San Antonio logo"
+            - heading "SAY Sí Summer Programs and Senior Showcase" [level=3] [ref=e259]
+            - paragraph [ref=e260]: Jun 25, 2021
+  - generic [ref=e262]:
+    - heading "A Fiesta of Design Medals and Awards" [level=2] [ref=e264]
+    - generic [ref=e265]:
+      - link [ref=e266] [cursor=pointer]:
+        - /url: https://www.red-dot.org/project/clutch-72795
+        - generic [ref=e267]:
+          - img "Red Dot Award Badge"
+          - generic [ref=e268]:
+            - img "Exit arrow icon"
+      - link [ref=e269] [cursor=pointer]:
+        - /url: https://designawards.core77.com/Tools/129157/STRIDE
+        - generic [ref=e270]:
+          - img "Core77 Award Badge"
+          - generic [ref=e271]:
+            - img "Exit arrow icon"
+      - link [ref=e272] [cursor=pointer]:
+        - /url: https://www.idesignawards.com/winners/zoom.php?eid=9-51646-23
+        - generic [ref=e273]:
+          - img "IDA Silver Award Badge"
+          - generic [ref=e274]:
+            - img "Exit arrow icon"
+      - link [ref=e275] [cursor=pointer]:
+        - /url: https://www.indigoaward.com/winners/8667
+        - generic [ref=e276]:
+          - img "Indigo Gold Award Badge" [ref=e277]
+          - generic [ref=e278]:
+            - img "Exit arrow icon"
+      - link [ref=e279] [cursor=pointer]:
+        - /url: https://www.indigoaward.com/winners/8667
+        - generic [ref=e280]:
+          - img "Indigo Silver Award Badge" [ref=e281]
+          - generic [ref=e282]:
+            - img "Exit arrow icon"
+      - link [ref=e283] [cursor=pointer]:
+        - /url: https://www.indigoaward.com/winners/8667
+        - generic [ref=e284]:
+          - img "indigo Bronze Award Badge" [ref=e285]
+          - generic [ref=e286]:
+            - img "Exit arrow icon"
+      - link [ref=e287] [cursor=pointer]:
+        - /url: https://adobe.design/design-circle/scholars
+        - generic [ref=e288]:
+          - img "Adobe Design Circle Scholarship Badge"
+          - generic [ref=e289]:
+            - img "Exit arrow icon"
+      - link [ref=e290] [cursor=pointer]:
+        - /url: /ar-satx
+        - generic [ref=e291]:
+          - img "Scholastic Art & Writing Award Badge"
+  - generic [ref=e293]:
+    - heading "a little bit about me" [level=2] [ref=e295]
+    - generic [ref=e296]:
+      - img "A photo of Jon Rodz walking the stage for his CAST Tech High School graduation" [ref=e299]
+      - generic [ref=e301]:
+        - generic [ref=e302]:
+          - heading "If there’s a Will— there’s a way..." [level=3] [ref=e303]
+          - paragraph [ref=e304]: The old adage "where there's a will, there's a way" is a mantra that has been passed down to me by my mother and grandmother and one that has proved to be true in my own life. From growing up in poverty to becoming an Adobe Design Circle Scholar studying at an out-of-state private art school (SCAD), I have achieved my goals through determination and a belief in my own abilities. I hope to inspire others to believe in themselves and their potential and to use design to spark their impossible ideas into reality.
+        - link [ref=e306] [cursor=pointer]:
+          - /url: /about
+          - generic [ref=e307]:
+            - paragraph [ref=e308]: more about me
+            - img "Small Right Arrow Icon" [ref=e310]
+  - generic [ref=e312]:
+    - generic [ref=e313]:
+      - heading "read my design journal" [level=2] [ref=e314]
+      - link [ref=e316] [cursor=pointer]:
+        - /url: /journal
+        - generic [ref=e317]:
+          - paragraph [ref=e318]: VIEW my journal
+          - img "Small Right Arrow Icon" [ref=e320]
+    - generic [ref=e321]:
+      - link [ref=e322] [cursor=pointer]:
+        - /url: https://www.jonrodz.com/journal/my-ux-professor-showed-me-this-worth-a-watch
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - paragraph [ref=e327]: Industry Insights
+            - heading "My UX Professor showed me this— worth a watch" [level=3] [ref=e328]
+            - paragraph [ref=e329]: Jan 9, 2023
+          - img "Long Right Arrow Icon" [ref=e331]
+      - link [ref=e333] [cursor=pointer]:
+        - /url: https://www.jonrodz.com/journal/the-best-ux-design-podcast-for-students
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - paragraph [ref=e338]: Resource Round-Ups
+            - heading "The Best UX Design Podcast For Students..." [level=3] [ref=e339]
+            - paragraph [ref=e340]: Jan 7, 2023
+          - img "Long Right Arrow Icon" [ref=e342]
+      - link [ref=e344] [cursor=pointer]:
+        - /url: https://www.jonrodz.com/journal/san-antonio-art-scene
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - paragraph [ref=e349]: Alamo Creatives
+            - heading "San Antonio Art Scene" [level=3] [ref=e350]
+            - paragraph [ref=e351]: Aug 11, 2022
+          - img "Long Right Arrow Icon" [ref=e353]
+      - link [ref=e354] [cursor=pointer]:
+        - /url: https://www.jonrodz.com/journal/scad-year-one
+        - generic [ref=e356]:
+          - generic [ref=e357]:
+            - paragraph [ref=e359]: Stories
+            - heading "SCAD Year One" [level=3] [ref=e360]
+            - paragraph [ref=e361]: Jan 3, 2023
+          - img "Long Right Arrow Icon" [ref=e363]
+  - generic [ref=e364]:
+    - generic [ref=e366]:
+      - heading "Great design starts with a spark of creativity" [level=2] [ref=e368]
+      - generic [ref=e372]:
+        - link "Work" [ref=e373] [cursor=pointer]:
+          - /url: "#"
+        - link "LinkedIn" [ref=e374] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/jonrodz/
+    - img "Jon Rodz Spark Star" [ref=e376]
+  - generic [ref=e377]:
+    - generic [ref=e380]:
+      - generic [ref=e382]:
+        - generic [ref=e384]:
+          - link "Home" [ref=e385] [cursor=pointer]:
+            - /url: /
+          - link "Work" [ref=e386] [cursor=pointer]:
+            - /url: "#"
+          - link "Journal" [ref=e387] [cursor=pointer]:
+            - /url: /journal
+        - generic [ref=e389]:
+          - link "Contact" [ref=e390] [cursor=pointer]:
+            - /url: mailto:itsjonrodz@gmail.com?subject=You've%20got%20mail!
+          - link "Resume" [ref=e391] [cursor=pointer]:
+            - /url: https://cdn.prod.website-files.com/60b0631197f96ec9762765c7/682e91776c8df4ef3ce4af55_090f0d81b740a7bd4426d7c4901f8545_Jon%20Rodz%20Resume.pdf
+          - link "About" [ref=e392] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e393]:
+        - link "" [ref=e394] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/rodzjon/
+        - link "" [ref=e395] [cursor=pointer]:
+          - /url: https://www.instagram.com/rodzjon/
+        - link "" [ref=e396] [cursor=pointer]:
+          - /url: https://twitter.com/itsjonrodz
+        - link "" [ref=e397] [cursor=pointer]:
+          - /url: https://open.spotify.com/user/jon.rodz
+      - generic [ref=e398]:
+        - heading "Stay Connected" [level=3] [ref=e399]
+        - form "Email Form" [ref=e401]:
+          - textbox "Reserved just for your email" [ref=e402]:
+            - /placeholder: "Reserved just for your email "
+          - button "Submit" [ref=e403] [cursor=pointer]
+    - generic [ref=e404]: Copyright © 2022 Jon Rodz. All rights reserved. Designed and developed by me.

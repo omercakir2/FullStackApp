@@ -1,0 +1,1116 @@
+- generic [ref=e2]:
+  - banner "Primary" [ref=e3]:
+    - link "Skip to Main Content" [ref=e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e5]:
+      - link "Home Page" [ref=e6] [cursor=pointer]:
+        - /url: https://webflow.com/?r=0
+        - img "Webflow" [ref=e8]
+      - navigation [ref=e17]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Platform" [ref=e22] [cursor=pointer]
+          - listitem [ref=e24]:
+            - link "Source" [ref=e25] [cursor=pointer]:
+              - /url: https://webflow.com/source
+          - listitem [ref=e26]:
+            - button "Solutions" [ref=e28] [cursor=pointer]
+          - listitem [ref=e30]:
+            - button "Resources" [ref=e32] [cursor=pointer]
+          - listitem [ref=e34]:
+            - link "Enterprise" [ref=e35] [cursor=pointer]:
+              - /url: https://webflow.com/enterprise
+          - listitem [ref=e36]:
+            - link "Pricing" [ref=e37] [cursor=pointer]:
+              - /url: https://webflow.com/pricing
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link "Log in" [ref=e40] [cursor=pointer]:
+            - /url: https://webflow.com/login?blog=1
+          - link "Contact Sales" [ref=e46] [cursor=pointer]:
+            - /url: https://webflow.com/enterprise/contact-sales
+        - link "Start for free" [ref=e50] [cursor=pointer]:
+          - /url: https://webflow.com/signup?blog=1
+  - main [ref=e52]:
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - navigation [ref=e60]:
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "Blog" [ref=e63] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e67]:
+              - link "Inspiration" [ref=e70] [cursor=pointer]:
+                - /url: /blog/category/inspiration
+        - generic [ref=e71]:
+          - heading "7 student portfolio examples to guide and inspire" [level=1] [ref=e72]
+          - paragraph [ref=e73]: Discover seven inspiring student portfolio examples and learn which elements to include in your website design to attract visitors and get projects.
+      - generic [ref=e75]:
+        - img "7 student portfolio examples to guide and inspire"
+    - separator [ref=e76]
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: Webflow Team
+            - link "View author profile" [ref=e92] [cursor=pointer]:
+              - /url: /people/webflow-team
+          - generic [ref=e95]:
+            - generic [ref=e96]: Table of contents
+            - navigation "On this page" [ref=e97]:
+              - list [ref=e98]:
+                - listitem [ref=e99]:
+                  - link "What should a student portfolio include?" [ref=e100] [cursor=pointer]:
+                    - /url: "#what-should-a-student-portfolio-include"
+                - listitem [ref=e101]:
+                  - link "7 digital student portfolio website examples to inspire your design" [ref=e102] [cursor=pointer]:
+                    - /url: "#7-digital-student-portfolio-website-examples-to-inspire-your-design"
+                - listitem [ref=e103]:
+                  - link "Build your own student portfolio with Webflow" [ref=e104] [cursor=pointer]:
+                    - /url: "#build-your-own-student-portfolio-with-webflow"
+          - list [ref=e107]:
+            - listitem [ref=e108]:
+              - generic [ref=e110]:
+                - generic [ref=e114]:
+                  - paragraph [ref=e115]: Get started for free
+                  - paragraph [ref=e116]: Create custom, scalable websites — without writing code. Start building in Webflow.
+                  - generic [ref=e118]:
+                    - generic [aria-hidden]: Unleash your creativity on the web
+                    - generic [ref=e119]: →
+                - link [ref=e121] [cursor=pointer]:
+                  - /url: https://webflow.com/signup?utm_source=blog&utm_medium=inline-ad&utm_campaign=signup
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - generic [ref=e124]: Share
+            - generic [ref=e126]:
+              - link "Share to X" [ref=e128] [cursor=pointer]:
+                - /url: https://twitter.com/share?url=https://webflow.com/customers/student-portfolio-examples&text=7 student portfolio examples to guide and inspire
+                - img "X" [ref=e129]
+              - link "Share to Facebook" [ref=e132] [cursor=pointer]:
+                - /url: https://www.facebook.com/sharer/sharer.php?u=https://webflow.com/customers/student-portfolio-examples
+              - link "Share to LinkedIn" [ref=e136] [cursor=pointer]:
+                - /url: https://www.linkedin.com/shareArticle?url=https://webflow.com/customers/student-portfolio-examples&title=7 student portfolio examples to guide and inspire
+          - generic [ref=e140]:
+            - generic [ref=e141]: Unlock exclusive Webflow content
+            - paragraph [ref=e142]: Subscribe now for best practices, research reports, and more.
+            - generic [ref=e145]:
+              - generic [ref=e148]:
+                - generic [ref=e149]: Business email
+                - textbox "Business email" [ref=e150]:
+                  - /placeholder: Enter your email
+              - generic [ref=e153]:
+                - generic [ref=e154]: Country
+                - combobox "Country" [ref=e155]:
+                  - option "United States" [selected]
+                  - option "Afghanistan"
+                  - option "Aland Islands"
+                  - option "Albania"
+                  - option "Algeria"
+                  - option "Andorra"
+                  - option "Angola"
+                  - option "Anguilla"
+                  - option "Antarctica"
+                  - option "Antigua and Barbuda"
+                  - option "Argentina"
+                  - option "Armenia"
+                  - option "Aruba"
+                  - option "Australia"
+                  - option "Austria"
+                  - option "Azerbaijan"
+                  - option "Bahamas"
+                  - option "Bahrain"
+                  - option "Bangladesh"
+                  - option "Barbados"
+                  - option "Belarus"
+                  - option "Belgium"
+                  - option "Belize"
+                  - option "Benin"
+                  - option "Bermuda"
+                  - option "Bhutan"
+                  - option "Bolivia"
+                  - option "Bonaire, Sint Eustatius and Saba"
+                  - option "Bosnia and Herzegovina"
+                  - option "Botswana"
+                  - option "Bouvet Island"
+                  - option "Brazil"
+                  - option "British Indian Ocean Territory"
+                  - option "Brunei"
+                  - option "Bulgaria"
+                  - option "Burkina"
+                  - option "Burundi"
+                  - option "Cambodia"
+                  - option "Cameroon"
+                  - option "Canada"
+                  - option "Cape Verde"
+                  - option "Cayman Islands"
+                  - option "Central African Rep"
+                  - option "Chad"
+                  - option "Chile"
+                  - option "China"
+                  - option "Christmas Island"
+                  - option "Cocos Islands"
+                  - option "Colombia"
+                  - option "Comoros"
+                  - option "Congo"
+                  - option "Congo (Democratic Rep)"
+                  - option "Cook Islands"
+                  - option "Costa Rica"
+                  - option "Croatia"
+                  - option "Cuba"
+                  - option "Curacao"
+                  - option "Cyprus"
+                  - option "Czech Republic"
+                  - option "Denmark"
+                  - option "Djibouti"
+                  - option "Dominica"
+                  - option "Dominican Republic"
+                  - option "East Timor"
+                  - option "Ecuador"
+                  - option "Egypt"
+                  - option "El Salvador"
+                  - option "Equatorial Guinea"
+                  - option "Eritrea"
+                  - option "Estonia"
+                  - option "Ethiopia"
+                  - option "Falkland Islands"
+                  - option "Faroe Islands"
+                  - option "Fiji"
+                  - option "Finland"
+                  - option "France"
+                  - option "French Guiana"
+                  - option "French Polynesia"
+                  - option "French Southern Territories"
+                  - option "Gabon"
+                  - option "Gambia"
+                  - option "Georgia"
+                  - option "Germany"
+                  - option "Ghana"
+                  - option "Gibraltar"
+                  - option "Greece"
+                  - option "Greenland"
+                  - option "Grenada"
+                  - option "Guadeloupe"
+                  - option "Guatemala"
+                  - option "Guernsey"
+                  - option "Guinea"
+                  - option "Guinea-Bissau"
+                  - option "Guyana"
+                  - option "Haiti"
+                  - option "Heard Island and McDonald Islands"
+                  - option "Honduras"
+                  - option "Hungary"
+                  - option "Iceland"
+                  - option "India"
+                  - option "Indonesia"
+                  - option "Iran"
+                  - option "Iraq"
+                  - option "Ireland (Republic)"
+                  - option "Isle of Man"
+                  - option "Israel"
+                  - option "Italy"
+                  - option "Ivory Coast"
+                  - option "Jamaica"
+                  - option "Japan"
+                  - option "Jersey"
+                  - option "Jordan"
+                  - option "Kazakhstan"
+                  - option "Kenya"
+                  - option "Kiribati"
+                  - option "Korea North"
+                  - option "Korea South"
+                  - option "Kosovo"
+                  - option "Kuwait"
+                  - option "Kyrgyzstan"
+                  - option "Laos"
+                  - option "Latvia"
+                  - option "Lebanon"
+                  - option "Lesotho"
+                  - option "Liberia"
+                  - option "Libya"
+                  - option "Liechtenstein"
+                  - option "Lithuania"
+                  - option "Luxembourg"
+                  - option "Macao"
+                  - option "Macedonia"
+                  - option "Madagascar"
+                  - option "Malawi"
+                  - option "Malaysia"
+                  - option "Maldives"
+                  - option "Mali"
+                  - option "Malta"
+                  - option "Martinique"
+                  - option "Mauritania"
+                  - option "Mauritius"
+                  - option "Mayotte"
+                  - option "Mexico"
+                  - option "Moldova"
+                  - option "Monaco"
+                  - option "Mongolia"
+                  - option "Montserrat"
+                  - option "Montenegro"
+                  - option "Morocco"
+                  - option "Mozambique"
+                  - option "Myanmar (Burma)"
+                  - option "Namibia"
+                  - option "Nauru"
+                  - option "Nepal"
+                  - option "Netherlands"
+                  - option "New Caledonia"
+                  - option "New Zealand"
+                  - option "Nicaragua"
+                  - option "Niue"
+                  - option "Niger"
+                  - option "Nigeria"
+                  - option "Norfolk Island"
+                  - option "Norway"
+                  - option "Oman"
+                  - option "Pakistan"
+                  - option "Palestinian Territory"
+                  - option "Panama"
+                  - option "Papua New Guinea"
+                  - option "Paraguay"
+                  - option "Peru"
+                  - option "Philippines"
+                  - option "Pitcairn"
+                  - option "Poland"
+                  - option "Portugal"
+                  - option "Qatar"
+                  - option "Reunion"
+                  - option "Romania"
+                  - option "Russian Federation"
+                  - option "Rwanda"
+                  - option "Saint Barthelemy"
+                  - option "Saint Helena"
+                  - option "St Kitts & Nevis"
+                  - option "St Lucia"
+                  - option "Saint Martin"
+                  - option "Saint Pierre and Miquelon"
+                  - option "Saint Vincent & the Grenadines"
+                  - option "Samoa"
+                  - option "San Marino"
+                  - option "Sao Tome & Principe"
+                  - option "Saudi Arabia"
+                  - option "Senegal"
+                  - option "Serbia"
+                  - option "Seychelles"
+                  - option "Sierra Leone"
+                  - option "Singapore"
+                  - option "Sint Maarten"
+                  - option "Slovakia"
+                  - option "Slovenia"
+                  - option "Solomon Islands"
+                  - option "Somalia"
+                  - option "South Africa"
+                  - option "South Georgia and the South Sandwich Islands"
+                  - option "South Sudan"
+                  - option "Spain"
+                  - option "Sri Lanka"
+                  - option "Sudan"
+                  - option "Suriname"
+                  - option "Svalbard and Jan Mayen"
+                  - option "Swaziland"
+                  - option "Sweden"
+                  - option "Switzerland"
+                  - option "Syria"
+                  - option "Taiwan"
+                  - option "Tajikistan"
+                  - option "Tanzania"
+                  - option "Thailand"
+                  - option "Togo"
+                  - option "Tokelau"
+                  - option "Tonga"
+                  - option "Trinidad & Tobago"
+                  - option "Tunisia"
+                  - option "Turkey"
+                  - option "Turkmenistan"
+                  - option "Turks and Caicos Islands"
+                  - option "Tuvalu"
+                  - option "Uganda"
+                  - option "Ukraine"
+                  - option "United Arab Emirates"
+                  - option "United Kingdom"
+                  - option "Uruguay"
+                  - option "Uzbekistan"
+                  - option "Vanuatu"
+                  - option "Vatican City"
+                  - option "Venezuela"
+                  - option "Vietnam"
+                  - option "Virgin Islands, British"
+                  - option "Wallis and Futuna"
+                  - option "Western Sahara"
+                  - option "Yemen"
+                  - option "Zambia"
+                  - option "Zimbabwe"
+              - generic [ref=e158]:
+                - generic [ref=e159]: I acknowledge that submitting this form subscribes me to marketing communications regarding Webflow’s products, services, and events. I understand I can unsubscribe at any time.
+                - generic "I’d like to receive marketing communications regarding Webflow’s products, services, and events. I understand I can unsubscribe at any time." [ref=e160]:
+                  - checkbox "I acknowledge that submitting this form subscribes me to marketing communications regarding Webflow’s products, services, and events. I understand I can unsubscribe at any time. I’d like to receive marketing communications regarding Webflow’s products, services, and events. I understand I can unsubscribe at any time." [ref=e161]
+                - generic [ref=e162]: I’d like to receive marketing communications regarding Webflow’s products, services, and events. I understand I can unsubscribe at any time.
+              - button "Subscribe" [ref=e165] [cursor=pointer]
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - paragraph [ref=e169]: "A student portfolio should answer the question: Why you?"
+          - generic [ref=e170]:
+            - paragraph [ref=e171]: Making a portfolio website puts your best work in front of potential clients, customers, and employers right away. Rather than relying solely on grades and certificates to land a job or project, a digital portfolio creatively demonstrates previous work and achievements in one place.
+            - paragraph [ref=e172]:
+              - text: Building a strong online student portfolio doesn’t require expert technical skills or coding experience. With the right tools and
+              - link "web design ideas" [ref=e173] [cursor=pointer]:
+                - /url: https://webflow.com/blog/web-design-portfolios
+              - text: ", you can use your portfolio to turn everything you’ve learned into visible proof for others to see your work."
+            - paragraph [ref=e174]: Read on to explore seven student portfolio examples with best practices to create a website that can help you stand out from the crowd.
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link "What should a student portfolio include?" [ref=e178] [cursor=pointer]:
+                  - /url: "#what-should"
+              - listitem [ref=e179]:
+                - link "7 digital student portfolio website examples to inspire your design" [ref=e180] [cursor=pointer]:
+                  - /url: "#7-examples"
+              - listitem [ref=e181]:
+                - link "Build your own student portfolio with Webflow" [ref=e182] [cursor=pointer]:
+                  - /url: "#build-your-own"
+            - heading "What should a student portfolio include?" [level=2] [ref=e183]
+            - paragraph [ref=e184]: "With the right mix of details and examples, you can build a website that effectively showcases your capabilities. Here are some portfolio tips for students and design elements to include on your site:"
+            - list [ref=e185]:
+              - listitem [ref=e186]:
+                - strong [ref=e187]: Hero section.
+                - text: A hero section is the first thing people see in the topmost area of your homepage. It should include your name, a short tagline, and a
+                - link "call to action (CTA)" [ref=e188] [cursor=pointer]:
+                  - /url: https://webflow.com/blog/how-to-write-a-call-to-action
+                - text: like “View my work” or “Featured projects.” A good hero section immediately tells visitors what you do and sets the tone for the rest of your site.
+              - listitem [ref=e189]:
+                - strong [ref=e190]: Simple, intuitive navigation.
+                - text: Navigation — elements like
+                - link "navigation bars (menus)" [ref=e191] [cursor=pointer]:
+                  - /url: https://webflow.com/blog/navigation-bar-design
+                - text: ", search bars, and links — acts as a map for your visitors. The menu and search bar should be visible and highly legible, with links standing out in a color different from the primary text. If people can quickly find what they’re looking for, they’re more likely to stay and explore."
+              - listitem [ref=e192]:
+                - strong [ref=e193]: Case study pages.
+                - text: Case studies are dedicated pages that tell the full story of your projects, from your initial ideas to the process and results. They help visitors understand what you made and how you think. Adding visuals of the project in process, like sketches, prototypes, or drafts, to showcase your decisions along the way is another helpful tool to entice visitors.
+              - listitem [ref=e194]:
+                - strong [ref=e195]: Featured projects or galleries.
+                - text: Exhibit your strongest projects on the homepage, either as large feature cards or in a clean grid. Each project you feature should include a visual and a short description. Linking case study pages can also give you room to analyze and explore what made that project great. This gallery gives people an overview of what you’re able to do before learning more.
+              - listitem [ref=e196]:
+                - strong [ref=e197]: Skills and tools section.
+                - text: Add a list or set of icons for the tools, languages, or software you know best. It helps potential clients and recruiters know if you have the right technical or creative skills for a role or project.
+              - listitem [ref=e198]:
+                - strong [ref=e199]: About section.
+                - text: Write a brief, friendly professional bio that explains who you are, what you’re passionate about, and what you’re working toward. The ideal length depends on your field and achievements, but preferably brief. If you’re comfortable, including a professional photo of yourself adds personality and makes your student portfolio design feel authentic and approachable.
+              - listitem [ref=e200]:
+                - strong [ref=e201]: Contact section.
+                - text: Make it as easy as possible for people to reach you. If comfortable, include your email, social media profile links (if they reflect your professional life), or a
+                - link "simple contact form" [ref=e202] [cursor=pointer]:
+                  - /url: https://webflow.com/blog/contact-form-on-website
+                - text: at the bottom of your site. Guide them toward interaction with a CTA like “Get in touch” or “Let’s work together!” at the end of the browsing experience.
+              - listitem [ref=e203]:
+                - strong [ref=e204]: High-quality visuals.
+                - text: High-resolution images, video clips, and animations to demonstrate your student work can make the user experience more engaging. Visuals help people understand your content better than words alone and encourage visitors to interact with elements.
+              - listitem [ref=e205]:
+                - strong [ref=e206]: Testimonials.
+                - text: If you have them available, include short quotes and recommendations from professors, mentors, or clients who can vouch for your student work. They add credibility to your
+                - link "personal brand" [ref=e207] [cursor=pointer]:
+                  - /url: https://webflow.com/blog/personal-website-examples
+                - text: ", make you more marketable, and build trust with website visitors."
+              - listitem [ref=e208]:
+                - strong [ref=e209]: Resumé or CV.
+                - text: Linking a PDF of your resumé or CV is a practical method for employers who want to share your details internally and allows them easy access to all necessary information in one place. You can also link your LinkedIn profile as another source of information for recruiters to review.
+              - listitem [ref=e210]:
+                - strong [ref=e211]: Responsive design.
+                - text: A
+                - link "responsive website" [ref=e212] [cursor=pointer]:
+                  - /url: https://webflow.com/blog/responsive-web-design
+                - text: automatically adapts to all devices, mobile or desktop, without sacrificing the design or functionality. Many people will view your site on a mobile device first, so it’s important to test your site on different screens to ensure the layout loads smoothly and works properly.
+              - listitem [ref=e213]:
+                - strong [ref=e214]: SEO.
+                - text: A well-optimized website is more likely to appear in search results when people search for your name or industry on Google and other search engines.
+                - link "Search engine optimization (SEO)" [ref=e215] [cursor=pointer]:
+                  - /url: https://webflow.com/blog/tools-for-seo
+                - text: includes adding descriptive titles, meta tags, and high-traffic keywords to your site.
+              - listitem [ref=e216]:
+                - strong [ref=e217]: Accessibility.
+                - link "Building an accessible site" [ref=e218] [cursor=pointer]:
+                  - /url: https://webflow.com/blog/why-is-web-accessibility-important
+                - text: means that it is usable for everyone and shows attention to detail and a commitment to inclusivity. Use legible colors with high contrast, alt text for images, and a clear text hierarchy for better readability.
+            - heading "7 digital student portfolio website examples to inspire your design" [level=2] [ref=e219]
+            - paragraph [ref=e220]: To see how design elements, layout structures, and storytelling can make effective websites in practice, here are seven websites to use as inspiration for your student portfolio.
+            - heading "1. Gerardo Orozco" [level=3] [ref=e221]
+            - figure [ref=e222]:
+              - generic [ref=e224]:
+                - emphasis [ref=e225]: "Source:"
+                - link [ref=e226] [cursor=pointer]:
+                  - /url: https://www.eygerardo.com/
+                  - emphasis [ref=e227]: Gerardo Orozco
+            - paragraph [ref=e228]:
+              - link "Gerardo Orozco" [ref=e229] [cursor=pointer]:
+                - /url: https://www.eygerardo.com/
+              - text: "opens their student portfolio with their first name in bold letters and a list of three facts about their personality: They love cats, they’re a graphic designer, and they're a self-described “awkward human.” This introduction differentiates their profile and immediately shows that they’re approachable and humorous while still retaining a professional edge."
+            - paragraph [ref=e230]:
+              - text: Scrolling reveals a curated project list. The images cover the entire screen, making the visuals stand out, with a
+              - link "hard-to-miss client name button" [ref=e231] [cursor=pointer]:
+                - /url: https://webflow.com/blog/cta-button-colors
+              - text: in the middle that takes you to dedicated case study pages. Each page then covers branding and packaging, with room to showcase Gerardo’s approach and thinking during the creative process.
+            - heading "2. Ruben Hernandez" [level=3] [ref=e232]
+            - figure [ref=e233]:
+              - generic [ref=e235]:
+                - emphasis [ref=e236]: "Source:"
+                - link [ref=e237] [cursor=pointer]:
+                  - /url: https://ruben-hernandez-portfolio.webflow.io/
+                  - emphasis [ref=e238]: Ruben Hernandez
+            - paragraph [ref=e239]:
+              - link "Ruben Hernandez" [ref=e240] [cursor=pointer]:
+                - /url: https://ruben-hernandez-portfolio.webflow.io/
+              - text: ’s student website follows a minimalist approach to spotlight their student work. Their “About” link takes you to a concise description explaining Ruben’s journey along with a playful video of them skating. Condensing his background on a separate page gives the homepage room to focus on a large visual compilation of Ruben’s projects.
+            - paragraph [ref=e241]: The “Work” section redirects viewers to the homepage, which highlights different projects with large thumbnails and hover-triggered animations, prompting you to explore. Once you do, each page has a “Story-Challenge-Opportunity” structure showing Ruben’s approach to each project, followed by several visual samples.
+            - heading "3. Tim DP" [level=3] [ref=e242]
+            - figure [ref=e243]:
+              - generic [ref=e245]:
+                - emphasis [ref=e246]: "Source:"
+                - link [ref=e247] [cursor=pointer]:
+                  - /url: https://www.timdp.ca/
+                  - emphasis [ref=e248]: Tim DP
+            - paragraph [ref=e249]:
+              - text: Unlike traditional top-to-bottom websites,
+              - link "Tim DP" [ref=e250] [cursor=pointer]:
+                - /url: https://www.timdp.ca/
+              - text: ’s digital portfolio scrolls horizontally. It’s an attention-catching,
+              - link "unique portfolio design" [ref=e251] [cursor=pointer]:
+                - /url: https://webflow.com/blog/design-portfolio-examples
+              - text: that encourages viewer interaction. The short description “Physical & digital designer” on the homepage makes it very clear what Tim does, and viewers can toggle between their digital and physical work to see the most relevant projects.
+            - paragraph [ref=e252]: An “Info” button takes you to an about page, where Tim lists their experiences, services provided, and distinctions in more detail. Tim’s website makes it easy for potential clients and recruiters to reach out by linking to their email and social media profiles on the right-hand side of the page.
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - generic [ref=e257]:
+              - generic [ref=e260]:
+                - paragraph [ref=e261]: Launch with Webflow Templates
+                - paragraph [ref=e262]: Choose from hundreds of professionally designed website templates for any industry or style. Customize visually, launch instantly — no coding required.
+                - generic [ref=e264]:
+                  - generic [aria-hidden]: Explore templates
+                  - generic [ref=e265]: →
+              - link "Read now" [ref=e267] [cursor=pointer]:
+                - /url: https://webflow.com/templates
+        - generic [ref=e269]:
+          - heading "5. Jon Rodz" [level=3] [ref=e270]
+          - figure [ref=e271]:
+            - generic [ref=e273]:
+              - emphasis [ref=e274]: "Source:"
+              - link [ref=e275] [cursor=pointer]:
+                - /url: https://www.jonrodz.com/
+                - emphasis [ref=e276]: Jon Rodz
+          - paragraph [ref=e277]:
+            - link "Jon Rodz" [ref=e278] [cursor=pointer]:
+              - /url: https://www.jonrodz.com/
+            - text: packs a lot of valuable information into his website header. His name appears in bold letters next to his professional headshot. Jon describes himself as a senior UX SCAD student and mentions previous work for companies like Amazon and Adobe. An “Explore my work” button expounds upon his impressive introduction and details his professional experience.
+          - paragraph [ref=e279]:
+            - text: After his introduction, Jon describes his creative process, highlights
+            - link "testimonials from satisfied customers" [ref=e280] [cursor=pointer]:
+              - /url: https://webflow.com/blog/how-to-ask-for-a-testimonial
+            - text: ", and links to media coverage for his professional and student work. To back up his strong reputation in the field even further, Jon shows a list of design awards he’s won. A thin border around each button indicates what kind of award he won (gold, silver, or bronze) or reflects the award’s brand colors, further communicating his success."
+          - paragraph [ref=e281]: Instead of an about section, you can access his journal-style blog, which provides unique insights from his perspective as a young Latino designer. Viewers can then view his professional resumé through the menu at the top of the site, which is accessible from any page.
+          - heading "6. Lauren Hung" [level=3] [ref=e282]
+          - figure [ref=e283]:
+            - generic [ref=e285]:
+              - emphasis [ref=e286]: "Source:"
+              - link [ref=e287] [cursor=pointer]:
+                - /url: https://www.laurenhungdesign.com/
+                - emphasis [ref=e288]: Lauren Hung
+          - paragraph [ref=e289]:
+            - link "Lauren Hung" [ref=e290] [cursor=pointer]:
+              - /url: https://www.laurenhungdesign.com/
+            - text: introduces herself as a product designer, maker, and sketcher, immediately giving viewers a clear picture of who she is and what she does. Her student site has two sections — a portfolio and an about page. Viewers can also download Lauren’s resumé via a dedicated button in the header menu.
+          - paragraph [ref=e291]: "The portfolio section of Lauren’s website has large thumbnails with descriptions of each project that you can click on for more details. Each case study page has several elements that walk you through Lauren’s decision-making process: an overview, scope, prototyping, collection of experiences, final proposal, value to the client, and post-project reflections. Her analysis leaves no room for confusion and simultaneously communicates her work’s value."
+          - paragraph [ref=e292]: The about section has a similar structure, with “Where I came from,” “Where I’m going,” and “Meanwhile” descriptions. A smart headshot shows her professional side, but hovering over the image changes it to a more casual and friendly, smiling image of Lauren. There are similar hover-triggered images throughout the website that show her interactive design skills in action.
+          - heading "7. Yichen Xie" [level=3] [ref=e293]
+          - figure [ref=e294]:
+            - generic [ref=e296]:
+              - emphasis [ref=e297]: "Source:"
+              - link [ref=e298] [cursor=pointer]:
+                - /url: https://www.yichenxie.com/
+                - emphasis [ref=e299]: Yichen Xie
+          - paragraph [ref=e300]:
+            - link "Yichen Xie" [ref=e301] [cursor=pointer]:
+              - /url: https://www.yichenxie.com/
+            - text: uses a minimalist, monochromatic design approach for his student portfolio that highlights his knowledge of contemporary tech design. His list of featured projects sit in clean cards, which expand into detailed pages full of mockups, wireframes, and prototypes demonstrating his creative thinking.
+          - paragraph [ref=e302]: An archive page shows Yichen’s prior work, highlighting his growth over time. Additionally, his about section showcases his work experience at reputable companies like Microsoft. In addition to his education, Yichen lists his skill set, making it easy for potential employers to match him to specific projects.
+          - heading "Build your own student portfolio with Webflow" [level=2] [ref=e303]
+          - paragraph [ref=e304]: An effective student portfolio shows what you’ve built during your educational and early professional years, how you think, and where you want to grow. It invites real engagement from others in your industry, helping you develop into a seasoned pro.
+          - paragraph [ref=e305]:
+            - text: Whether you’re a budding graphic designer, developer, or marketer, a well-made online portfolio makes your strengths easy to find and remember. Webflow’s tools help you build the website that takes you to your next step. With Webflow, you can design visually and maintain your website without needing third-party resources (but
+            - link "integrations with Webflow" [ref=e306] [cursor=pointer]:
+              - /url: https://webflow.com/integrations
+            - text: are available to make your website more powerful).
+          - paragraph [ref=e307]:
+            - text: Start with one of our
+            - link "free website templates" [ref=e308] [cursor=pointer]:
+              - /url: https://webflow.com/templates/free-website-templates
+            - text: or build a new website from scratch with
+            - link "Webflow" [ref=e309] [cursor=pointer]:
+              - /url: https://webflow.com/
+            - text: .
+        - generic [ref=e312]:
+          - generic [ref=e315]:
+            - paragraph [ref=e316]: Show off your work.
+            - paragraph [ref=e317]: Choose from fully customizable portfolio templates built for creatives. With Webflow, you can design, refine, and publish a standout portfolio — without writing a single line of code.
+            - generic [ref=e319]:
+              - generic [aria-hidden]: Browse portfolio templates
+              - generic [ref=e320]: →
+          - link "Read now" [ref=e322] [cursor=pointer]:
+            - /url: https://webflow.com/templates/category/portfolio-and-agency-websites
+        - separator [ref=e324]
+        - generic [ref=e325]:
+          - generic [ref=e326]:
+            - generic [ref=e327]: Last Updated
+            - generic [ref=e329]: February 27, 2026
+          - generic [ref=e330]:
+            - generic [ref=e331]: Category
+            - link "Inspiration" [ref=e335] [cursor=pointer]:
+              - /url: /blog/category/inspiration
+    - separator [ref=e336]
+    - generic [ref=e339]:
+      - generic [ref=e340]:
+        - heading "Related articles" [level=2] [ref=e343]
+        - generic [ref=e346]:
+          - generic [ref=e348]:
+            - button "Previous slide" [disabled]:
+              - generic: ←
+          - button "Next slide" [ref=e351] [cursor=pointer]:
+            - generic [ref=e352]: →
+      - list [ref=e356]:
+        - listitem "1 / 6" [ref=e357]:
+          - generic "none" [ref=e361] [cursor=pointer]: →
+          - generic [ref=e363]:
+            - heading "9 great graduate portfolio examples" [level=3] [ref=e365]
+            - generic [ref=e366]:
+              - generic [ref=e367]: Design
+              - generic [ref=e371]:
+                - generic [ref=e372]: By
+                - generic [ref=e373]: Kate Donnellan
+          - link "Read article" [ref=e374] [cursor=pointer]:
+            - /url: /blog/student-portfolio-recent-grads
+        - listitem "2 / 6" [ref=e376]:
+          - generic "none" [ref=e380] [cursor=pointer]: →
+          - generic [ref=e382]:
+            - 'heading "9 best web developer portfolios: Examples to inspire your own" [level=3] [ref=e384]'
+            - generic [ref=e385]:
+              - generic [ref=e386]: Inspiration
+              - generic [ref=e390]:
+                - generic [ref=e391]: By
+                - generic [ref=e392]: Webflow Team
+          - link "Read article" [ref=e393] [cursor=pointer]:
+            - /url: /blog/web-developer-portfolio-examples
+        - listitem "3 / 6" [ref=e395]:
+          - generic "none" [ref=e399] [cursor=pointer]: →
+          - generic [ref=e401]:
+            - heading "15 best UX design portfolio examples that’ll inspire you in 2025" [level=3] [ref=e403]
+            - generic [ref=e404]:
+              - generic [ref=e405]: Design
+              - generic [ref=e409]:
+                - generic [ref=e410]: By
+                - generic [ref=e411]: Webflow Team
+          - link "Read article" [ref=e412] [cursor=pointer]:
+            - /url: /blog/ux-designer-portfolio
+        - listitem "4 / 6" [ref=e414]:
+          - generic "none" [ref=e418] [cursor=pointer]: →
+          - generic [ref=e420]:
+            - heading "7 elements to include in your marketing portfolio site (plus examples)" [level=3] [ref=e422]
+            - generic [ref=e423]:
+              - generic [ref=e424]: Inspiration
+              - generic [ref=e428]:
+                - generic [ref=e429]: By
+                - generic [ref=e430]: Webflow Team
+          - link "Read article" [ref=e431] [cursor=pointer]:
+            - /url: /blog/marketing-portfolio-examples
+        - listitem "5 / 6" [ref=e433]:
+          - generic "none" [ref=e437] [cursor=pointer]: →
+          - generic [ref=e439]:
+            - heading "9 of the best college website designs for higher education" [level=3] [ref=e441]
+            - generic [ref=e442]:
+              - generic [ref=e443]: Inspiration
+              - generic [ref=e447]:
+                - generic [ref=e448]: By
+                - generic [ref=e449]: Webflow Team
+          - link "Read article" [ref=e450] [cursor=pointer]:
+            - /url: /blog/best-college-websites
+        - listitem "6 / 6" [ref=e452]:
+          - generic "none" [ref=e456] [cursor=pointer]: →
+          - generic [ref=e458]:
+            - heading "4 best blog layout examples to inspire your site’s design" [level=3] [ref=e460]
+            - generic [ref=e461]:
+              - generic [ref=e462]: Design
+              - generic [ref=e466]:
+                - generic [ref=e467]: By
+                - generic [ref=e468]: Webflow Team
+          - link "Read article" [ref=e469] [cursor=pointer]:
+            - /url: /blog/7-beautiful-blog-layouts
+    - generic [ref=e471]:
+      - separator [ref=e472]
+      - generic [ref=e477]:
+        - generic [ref=e479]:
+          - img "verifone logo" [ref=e480]
+          - generic [ref=e481]:
+            - img "ncr logo" [ref=e488]
+            - generic:
+              - generic:
+                - link "ncr logo":
+                  - /url: https://webflow.com/customers/ncr
+                - generic:
+                  - generic: 10x
+                  - generic: In cost savings annually
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "monday.com logo" [ref=e489]
+          - img "spotify logo" [ref=e490]
+          - img "ted logo" [ref=e491]
+          - generic [ref=e492]:
+            - img "dropbox" [ref=e499]
+            - generic:
+              - generic:
+                - link "dropbox":
+                  - /url: https://webflow.com/customers/dropbox-sign
+                - generic:
+                  - generic: 67%
+                  - generic: decrease in dev ticketing
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "greenhouse logo" [ref=e500]
+          - img "clear logo" [ref=e501]
+          - generic [ref=e502]:
+            - img "orangetheory fitness logo" [ref=e509]
+            - generic:
+              - generic:
+                - link "orangetheory fitness logo":
+                  - /url: https://webflow.com/customers/orangetheory-fitness
+                - generic:
+                  - generic: $6M
+                  - generic: in cost savings annually
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "checkout.com logo" [ref=e510]
+          - img "soundcloud logo" [ref=e511]
+          - generic [ref=e512]:
+            - img "walker & dunlop logo" [ref=e519]
+            - generic:
+              - generic:
+                - link "walker & dunlop logo":
+                  - /url: https://webflow.com/customers/walker-dunlop
+                - generic:
+                  - generic: 56%
+                  - generic: increase in form fills
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "reddit logo" [ref=e520]
+          - generic [ref=e521]:
+            - img "docusign logo" [ref=e528]
+            - generic:
+              - generic:
+                - link "docusign logo":
+                  - /url: https://webflow.com/customers/docusign
+                - generic:
+                  - generic: 1,170%
+                  - generic: increase in traffic YoY
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - generic [ref=e529]:
+            - img "abm logo" [ref=e536]
+            - generic:
+              - generic:
+                - link "abm logo":
+                  - /url: https://webflow.com/customers/abm
+                - generic:
+                  - generic: $200M
+                  - generic: in new pipeline generated post-site launch
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "the new york times logo" [ref=e537]
+          - img "ideo logo" [ref=e538]
+          - img "upwork logo" [ref=e539]
+          - img "discord logo" [ref=e540]
+          - generic [ref=e541]:
+            - img "lattice logo" [ref=e548]
+            - generic:
+              - generic:
+                - link "lattice logo":
+                  - /url: https://webflow.com/customers/lattice
+                - generic:
+                  - generic: +20%
+                  - generic: increase in site-wide conversion
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+        - generic [ref=e550]:
+          - img "verifone logo" [ref=e551]
+          - generic [ref=e552]:
+            - img "ncr logo" [ref=e559]
+            - generic:
+              - generic:
+                - link "ncr logo":
+                  - /url: https://webflow.com/customers/ncr
+                - generic:
+                  - generic: 10x
+                  - generic: In cost savings annually
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "monday.com logo" [ref=e560]
+          - img "spotify logo" [ref=e561]
+          - img "ted logo" [ref=e562]
+          - generic [ref=e563]:
+            - img "dropbox" [ref=e570]
+            - generic:
+              - generic:
+                - link "dropbox":
+                  - /url: https://webflow.com/customers/dropbox-sign
+                - generic:
+                  - generic: 67%
+                  - generic: decrease in dev ticketing
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "greenhouse logo" [ref=e571]
+          - img "clear logo" [ref=e572]
+          - generic [ref=e573]:
+            - img "orangetheory fitness logo" [ref=e580]
+            - generic:
+              - generic:
+                - link "orangetheory fitness logo":
+                  - /url: https://webflow.com/customers/orangetheory-fitness
+                - generic:
+                  - generic: $6M
+                  - generic: in cost savings annually
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "checkout.com logo" [ref=e581]
+          - img "soundcloud logo" [ref=e582]
+          - generic [ref=e583]:
+            - img "walker & dunlop logo" [ref=e590]
+            - generic:
+              - generic:
+                - link "walker & dunlop logo":
+                  - /url: https://webflow.com/customers/walker-dunlop
+                - generic:
+                  - generic: 56%
+                  - generic: increase in form fills
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "reddit logo" [ref=e591]
+          - generic [ref=e592]:
+            - img "docusign logo" [ref=e599]
+            - generic:
+              - generic:
+                - link "docusign logo":
+                  - /url: https://webflow.com/customers/docusign
+                - generic:
+                  - generic: 1,170%
+                  - generic: increase in traffic YoY
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - generic [ref=e600]:
+            - img "abm logo" [ref=e607]
+            - generic:
+              - generic:
+                - link "abm logo":
+                  - /url: https://webflow.com/customers/abm
+                - generic:
+                  - generic: $200M
+                  - generic: in new pipeline generated post-site launch
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+          - img "the new york times logo" [ref=e608]
+          - img "ideo logo" [ref=e609]
+          - img "upwork logo" [ref=e610]
+          - img "discord logo" [ref=e611]
+          - generic [ref=e612]:
+            - img "lattice logo" [ref=e619]
+            - generic:
+              - generic:
+                - link "lattice logo":
+                  - /url: https://webflow.com/customers/lattice
+                - generic:
+                  - generic: +20%
+                  - generic: increase in site-wide conversion
+                - generic:
+                  - generic [aria-hidden]: Read story
+                  - generic: →
+      - generic [ref=e622]:
+        - generic [ref=e623]:
+          - heading "Get started for free" [level=2] [ref=e625]
+          - generic [ref=e627]:
+            - generic [ref=e630]:
+              - generic [aria-hidden]: Get started — it’s free
+              - link "Get started — it’s free" [ref=e631] [cursor=pointer]:
+                - /url: http://webflow.com/signup
+            - generic [ref=e635]:
+              - generic [aria-hidden]: Watch demo
+              - link "Watch demo" [ref=e636] [cursor=pointer]:
+                - /url: /product-tour
+        - paragraph [ref=e641]: Try Webflow for as long as you like with our free Starter plan. Purchase a paid Site plan to publish, host, and unlock additional features.
+  - contentinfo [ref=e642]:
+    - generic [ref=e643]:
+      - navigation "Directory" [ref=e644]:
+        - generic [ref=e645]:
+          - generic [ref=e646]:
+            - heading "Source by Webflow" [level=2] [ref=e647]
+            - list "Solutions" [ref=e648]:
+              - listitem [ref=e649]:
+                - link "Research preview" [ref=e650] [cursor=pointer]:
+                  - /url: https://webflow.com/source
+            - heading "Product" [level=2] [ref=e652]
+            - list "Product" [ref=e653]:
+              - listitem [ref=e654]:
+                - link "Platform" [ref=e655] [cursor=pointer]:
+                  - /url: https://webflow.com/platform
+              - listitem [ref=e657]:
+                - link "Design" [ref=e658] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/design
+              - listitem [ref=e660]:
+                - link "Edit content" [ref=e661] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/edit-content
+              - listitem [ref=e663]:
+                - link "Interactions" [ref=e664] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/interactions-animations
+              - listitem [ref=e666]:
+                - link "GSAP" [ref=e667] [cursor=pointer]:
+                  - /url: https://gsap.com/pricing/
+              - listitem [ref=e669]:
+                - link "Page building" [ref=e670] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/page-building
+              - listitem [ref=e672]:
+                - link "Shared Libraries" [ref=e673] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/shared-libraries
+              - listitem [ref=e675]:
+                - link "Collaboration" [ref=e676] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/collaboration
+              - listitem [ref=e678]:
+                - link "CMS" [ref=e679] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/cms
+              - listitem [ref=e681]:
+                - link "Hosting" [ref=e682] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/hosting
+              - listitem [ref=e684]:
+                - link "Localize" [ref=e685] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/localize
+              - listitem [ref=e687]:
+                - link "Security" [ref=e688] [cursor=pointer]:
+                  - /url: https://webflow.com/security
+              - listitem [ref=e690]:
+                - link "Ecommerce" [ref=e691] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/ecommerce
+              - listitem [ref=e693]:
+                - link "Analyze" [ref=e694] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/analyze
+              - listitem [ref=e696]:
+                - link "Optimize" [ref=e697] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/optimize
+              - listitem [ref=e699]:
+                - link "SEO" [ref=e700] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/seo
+              - listitem [ref=e702]:
+                - link "MCP new" [ref=e703] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/mcp
+              - listitem [ref=e705]:
+                - link "AEO new" [ref=e706] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/aeo
+              - listitem [ref=e708]:
+                - link "Webflow Cloud" [ref=e709] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/cloud
+              - listitem [ref=e711]:
+                - link "DevLinkLabs" [ref=e712] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/devlink
+              - listitem [ref=e714]:
+                - link "Figma to WebflowLabs" [ref=e715] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/figma-to-webflow
+              - listitem [ref=e717]:
+                - link "Accessibility" [ref=e718] [cursor=pointer]:
+                  - /url: https://webflow.com/accessibility
+              - listitem [ref=e720]:
+                - link "AI" [ref=e721] [cursor=pointer]:
+                  - /url: https://webflow.com/feature/ai
+          - generic [ref=e723]:
+            - heading "Solutions" [level=2] [ref=e724]
+            - list "Solutions" [ref=e725]:
+              - listitem [ref=e726]:
+                - link "Enterprise" [ref=e727] [cursor=pointer]:
+                  - /url: https://webflow.com/enterprise
+              - listitem [ref=e729]:
+                - link "Global alliances" [ref=e730] [cursor=pointer]:
+                  - /url: https://webflow.com/solutions/global-alliances
+              - listitem [ref=e732]:
+                - link "Agencies" [ref=e733] [cursor=pointer]:
+                  - /url: https://webflow.com/solutions/agencies
+              - listitem [ref=e735]:
+                - link "Freelancers" [ref=e736] [cursor=pointer]:
+                  - /url: https://webflow.com/solutions/freelancers
+            - heading "Resources" [level=2] [ref=e738]
+            - list "Resources" [ref=e739]:
+              - listitem [ref=e740]:
+                - link "University" [ref=e741] [cursor=pointer]:
+                  - /url: https://university.webflow.com
+              - listitem [ref=e743]:
+                - link "Blog" [ref=e744] [cursor=pointer]:
+                  - /url: https://webflow.com/blog
+              - listitem [ref=e746]:
+                - link "Customer stories" [ref=e747] [cursor=pointer]:
+                  - /url: https://webflow.com/customers
+              - listitem [ref=e749]:
+                - link "Webinars & ebooks" [ref=e750] [cursor=pointer]:
+                  - /url: https://webflow.com/resources
+              - listitem [ref=e752]:
+                - link "Apps" [ref=e753] [cursor=pointer]:
+                  - /url: https://webflow.com/apps
+              - listitem [ref=e755]:
+                - link "Libraries" [ref=e756] [cursor=pointer]:
+                  - /url: https://webflow.com/libraries
+              - listitem [ref=e758]:
+                - link "Templates" [ref=e759] [cursor=pointer]:
+                  - /url: https://webflow.com/templates
+              - listitem [ref=e761]:
+                - link "Developers" [ref=e762] [cursor=pointer]:
+                  - /url: https://developers.webflow.com
+              - listitem [ref=e764]:
+                - link "Made in Webflow" [ref=e765] [cursor=pointer]:
+                  - /url: https://webflow.com/made-in-webflow
+              - listitem [ref=e767]:
+                - link "Glossary" [ref=e768] [cursor=pointer]:
+                  - /url: https://webflow.com/glossary
+              - listitem [ref=e770]:
+                - link "Livestreams" [ref=e771] [cursor=pointer]:
+                  - /url: https://webflow.com/community/livestreams
+              - listitem [ref=e773]:
+                - link "The Webflow Way" [ref=e774] [cursor=pointer]:
+                  - /url: https://webflow.com/webflow-way
+              - listitem [ref=e776]:
+                - link "Business Value Calculator" [ref=e777] [cursor=pointer]:
+                  - /url: /migrate/business-value-calculator
+          - generic [ref=e779]:
+            - heading "Company" [level=2] [ref=e780]
+            - list "Company" [ref=e781]:
+              - listitem [ref=e782]:
+                - link "About" [ref=e783] [cursor=pointer]:
+                  - /url: https://webflow.com/company/about
+              - listitem [ref=e785]:
+                - link "CareersWe're hiring" [ref=e786] [cursor=pointer]:
+                  - /url: https://webflow.com/company/careers
+              - listitem [ref=e788]:
+                - link "Press" [ref=e789] [cursor=pointer]:
+                  - /url: https://webflow.com/company/media
+              - listitem [ref=e791]:
+                - link "Webflow Ventures" [ref=e792] [cursor=pointer]:
+                  - /url: https://webflow.com/webflow-ventures
+              - listitem [ref=e794]:
+                - link "Webflow Shop" [ref=e795] [cursor=pointer]:
+                  - /url: https://shop.webflow.com
+              - listitem [ref=e797]:
+                - link "Terms of Service" [ref=e798] [cursor=pointer]:
+                  - /url: https://webflow.com/legal/terms
+              - listitem [ref=e800]:
+                - link "Privacy policy" [ref=e801] [cursor=pointer]:
+                  - /url: https://webflow.com/legal/privacy
+              - listitem [ref=e803]:
+                - link "Cookie policy" [ref=e804] [cursor=pointer]:
+                  - /url: https://webflow.com/legal/cookie-policy
+              - listitem [ref=e806]:
+                - link "Accessibility statement" [ref=e807] [cursor=pointer]:
+                  - /url: https://webflow.com/accessibility/statement
+            - heading "Compare" [level=2] [ref=e809]
+            - list "Company" [ref=e810]:
+              - listitem [ref=e811]:
+                - link "Contentful" [ref=e812] [cursor=pointer]:
+                  - /url: https://webflow.com/vs/contentful
+              - listitem [ref=e814]:
+                - link "Framer" [ref=e815] [cursor=pointer]:
+                  - /url: https://webflow.com/vs/framer
+              - listitem [ref=e817]:
+                - link "Sitecore" [ref=e818] [cursor=pointer]:
+                  - /url: https://webflow.com/vs/sitecore
+              - listitem [ref=e820]:
+                - link "Wix" [ref=e821] [cursor=pointer]:
+                  - /url: https://webflow.com/vs/wix
+              - listitem [ref=e823]:
+                - link "WordPress" [ref=e824] [cursor=pointer]:
+                  - /url: https://webflow.com/vs/wordpress
+          - generic [ref=e826]:
+            - heading "Community" [level=2] [ref=e827]
+            - list "Community" [ref=e828]:
+              - listitem [ref=e829]:
+                - link "Discover the community" [ref=e830] [cursor=pointer]:
+                  - /url: https://webflow.com/community
+              - listitem [ref=e832]:
+                - link "Partner with Webflow" [ref=e833] [cursor=pointer]:
+                  - /url: https://webflow.com/solutions/partners
+              - listitem [ref=e835]:
+                - link "Certified Partners" [ref=e836] [cursor=pointer]:
+                  - /url: https://webflow.com/certified-partners
+              - listitem [ref=e838]:
+                - link "Become a template designer" [ref=e839] [cursor=pointer]:
+                  - /url: https://webflow.com/templates/applications
+              - listitem [ref=e841]:
+                - link "Become an affiliate" [ref=e842] [cursor=pointer]:
+                  - /url: https://webflow.com/solutions/affiliates
+              - listitem [ref=e844]:
+                - link "Become a Global Leader" [ref=e845] [cursor=pointer]:
+                  - /url: https://webflow.com/community/become-a-global-leader
+              - listitem [ref=e847]:
+                - link "Find a meetup near you" [ref=e848] [cursor=pointer]:
+                  - /url: https://webflow.com/community/webflow-network-groups
+            - heading "Get help" [level=2] [ref=e850]
+            - list "Get help" [ref=e851]:
+              - listitem [ref=e852]:
+                - link "Support" [ref=e853] [cursor=pointer]:
+                  - /url: https://help.webflow.com/
+              - listitem [ref=e855]:
+                - link "Pricing" [ref=e856] [cursor=pointer]:
+                  - /url: https://webflow.com/pricing
+              - listitem [ref=e858]:
+                - link "Status" [ref=e859] [cursor=pointer]:
+                  - /url: https://status.webflow.com/
+              - listitem [ref=e861]:
+                - link "Community Homebase" [ref=e862] [cursor=pointer]:
+                  - /url: https://community.webflow.com/
+              - listitem [ref=e864]:
+                - link "Wishlist" [ref=e865] [cursor=pointer]:
+                  - /url: https://wishlist.webflow.com/
+      - generic [ref=e868]:
+        - generic [ref=e869]:
+          - generic [ref=e870]: © 2026 Webflow, Inc. All rights reserved
+          - list [ref=e872]:
+            - listitem [ref=e873]:
+              - link "Made in Webflow" [ref=e874] [cursor=pointer]:
+                - /url: https://webflow.com/discover/popular#recent
+                - img "Made in Webflow" [ref=e876]
+            - listitem [ref=e878]:
+              - link "Webflow's YouTube channel" [ref=e879] [cursor=pointer]:
+                - /url: https://www.youtube.com/webflow
+                - img "YouTube" [ref=e881]
+            - listitem [ref=e883]:
+              - link "Webflow's Twitter account" [ref=e884] [cursor=pointer]:
+                - /url: https://x.com/webflow
+                - img "X" [ref=e886]
+            - listitem [ref=e888]:
+              - link "Webflow's Facebook page" [ref=e889] [cursor=pointer]:
+                - /url: https://www.facebook.com/webflow/
+                - img "Facebook" [ref=e891]
+            - listitem [ref=e893]:
+              - link "Webflow's Linkedin page" [ref=e894] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/webflow-inc-
+                - img "Linkedin" [ref=e896]
+            - listitem [ref=e898]:
+              - link "Webflow's Instagram page" [ref=e899] [cursor=pointer]:
+                - /url: https://www.instagram.com/webflow/
+                - img "Instagram" [ref=e901]
+            - listitem [ref=e905]:
+              - link "Webflow's TikTok" [ref=e906] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@webflow
+                - img "TikTok" [ref=e908]
+        - link [aria-hidden] [ref=e914] [cursor=pointer]:
+          - /url: https://webflow.com/?r=0
+          - generic [ref=e915]: Webflow's homepage
+      - link "Made in Webflow" [ref=e916] [cursor=pointer]:
+        - /url: https://webflow.com/

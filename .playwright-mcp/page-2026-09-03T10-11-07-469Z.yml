@@ -1,0 +1,219 @@
+- generic [ref=f1e3]:
+  - link "Skip to work" [ref=f1e4] [cursor=pointer]:
+    - /url: "#projects"
+  - navigation "Primary" [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - link "Ömer." [ref=f1e8] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f1e9]:
+        - checkbox "Toggle navigation menu"
+        - generic [ref=f1e10]:
+          - link "Work" [ref=f1e11] [cursor=pointer]:
+            - /url: "#projects"
+          - link "About" [ref=f1e12] [cursor=pointer]:
+            - /url: "#about"
+          - link "Contact" [ref=f1e13] [cursor=pointer]:
+            - /url: "#contact"
+          - link "Resume" [ref=f1e14] [cursor=pointer]:
+            - /url: http://localhost:5001/api/download-resume
+          - generic [ref=f1e15]:
+            - group "Switch language" [ref=f1e16]:
+              - button "EN" [pressed] [ref=f1e17] [cursor=pointer]
+              - button "TR" [ref=f1e18] [cursor=pointer]
+            - button "Switch to dark theme" [ref=f1e19] [cursor=pointer]
+  - main [ref=f1e23]:
+    - generic [ref=f1e25]:
+      - generic [ref=f1e26]:
+        - paragraph [ref=f1e27]: Open to internships
+        - heading "Ömer." [level=1] [ref=f1e29]
+        - paragraph [ref=f1e30]: Full-stack student developer
+        - paragraph [ref=f1e31]: I build software that solves real problems.
+        - paragraph [ref=f1e32]: Third-year CTIS student focused on tools people actually use — from campus workflows to shipped products. Open to internships and collaborations.
+        - list [ref=f1e33]:
+          - listitem [ref=f1e34]: Third-year CTIS at Bilkent
+          - listitem [ref=f1e35]: Campus tools people actually use
+          - listitem [ref=f1e36]: Guitar, saz, and story-driven games
+        - generic [ref=f1e37]:
+          - link "Explore my work" [ref=f1e38] [cursor=pointer]:
+            - /url: "#projects"
+            - text: Explore my work
+            - generic [aria-hidden] [ref=f1e39]: →
+          - link "Get in touch" [ref=f1e40] [cursor=pointer]:
+            - /url: "#contact"
+      - generic [ref=f1e42]:
+        - img "Ömer Çakır in a navy suit, standing in a garden" [ref=f1e43]
+        - generic [ref=f1e44]:
+          - paragraph [ref=f1e45]: Based in
+          - strong [ref=f1e46]: Ankara, Türkiye
+    - generic [ref=f1e48]:
+      - generic [ref=f1e49]:
+        - generic [ref=f1e50]:
+          - paragraph [ref=f1e51]: Selected work
+          - heading "Things I’ve shipped" [level=2] [ref=f1e52]
+          - paragraph [ref=f1e53]: Coursework and personal builds — full-stack apps, games, and campus tooling. Open a project to read the story, the challenge, and the approach.
+        - group "Filter projects" [ref=f1e54]:
+          - button "All" [pressed] [ref=f1e55] [cursor=pointer]
+          - button "Full-stack" [ref=f1e56] [cursor=pointer]
+          - button "Games" [ref=f1e57] [cursor=pointer]
+          - button "Tools" [ref=f1e58] [cursor=pointer]
+      - generic [ref=f1e59]:
+        - button "GreenMarkt — Read case study" [ref=f1e60] [cursor=pointer]:
+          - generic [ref=f1e66]:
+            - generic [ref=f1e67]:
+              - generic [ref=f1e68]: "01"
+              - generic [ref=f1e69]: Full-stack
+            - heading "GreenMarkt" [level=3] [ref=f1e70]
+            - paragraph [ref=f1e71]: Full-stack web application team project using Node.js, Express, EJS, and Ajax for a backend development course.
+            - generic [ref=f1e73]:
+              - text: Read case study
+              - generic [aria-hidden] [ref=f1e74]: ↗
+        - button "Hitting the Balloons — Read case study" [ref=f1e75] [cursor=pointer]:
+          - generic [ref=f1e81]:
+            - generic [ref=f1e82]:
+              - generic [ref=f1e83]: "02"
+              - generic [ref=f1e84]: Game
+            - heading "Hitting the Balloons" [level=3] [ref=f1e85]
+            - paragraph [ref=f1e86]: Game developed using OpenGL and GLUT for the Technical Mathematics with Programming course.
+            - generic [ref=f1e88]:
+              - text: Read case study
+              - generic [aria-hidden] [ref=f1e89]: ↗
+        - button "Dynamic QR Generator — Read case study" [ref=f1e90] [cursor=pointer]:
+          - generic [ref=f1e92]:
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]: "03"
+              - generic [ref=f1e95]: Full-stack
+            - heading "Dynamic QR Generator" [level=3] [ref=f1e96]
+            - paragraph [ref=f1e97]: A web application for generating and managing dynamic QR codes using Django.
+            - generic [ref=f1e99]:
+              - text: Read case study
+              - generic [aria-hidden] [ref=f1e100]: ↗
+        - button "Bilkent Attendance Counter — Read case study" [ref=f1e101] [cursor=pointer]:
+          - generic [ref=f1e106]:
+            - generic [ref=f1e107]:
+              - generic [ref=f1e108]: "04"
+              - generic [ref=f1e109]: Tool
+            - heading "Bilkent Attendance Counter" [level=3] [ref=f1e110]
+            - paragraph [ref=f1e111]: A Chrome Extension for Bilkent University’s STARS system, automating attendance tracking and providing real-time data for students.
+            - generic [ref=f1e113]:
+              - text: Read case study
+              - generic [aria-hidden] [ref=f1e114]: ↗
+        - button "Tap the Black Tiles — Read case study" [ref=f1e115] [cursor=pointer]:
+          - generic [ref=f1e117]:
+            - generic [ref=f1e118]:
+              - generic [ref=f1e119]: "05"
+              - generic [ref=f1e120]: Game
+            - heading "Tap the Black Tiles" [level=3] [ref=f1e121]
+            - paragraph [ref=f1e122]: An interactive, reflex-based web game developed using vanilla JavaScript, HTML5, and CSS3. Features dynamic DOM manipulation and optimized event handling for real-time interaction and score tracking.
+            - generic [ref=f1e124]:
+              - text: Read case study
+              - generic [aria-hidden] [ref=f1e125]: ↗
+    - region [ref=f1e126]:
+      - generic [ref=f1e127]:
+        - generic [ref=f1e128]:
+          - paragraph [ref=f1e129]: Process
+          - heading "How I work" [level=2] [ref=f1e130]
+          - paragraph [ref=f1e131]: A short loop I reuse on coursework and personal builds.
+        - list [ref=f1e132]:
+          - listitem [ref=f1e133]:
+            - generic [aria-hidden] [ref=f1e134]: "01"
+            - heading "Discover" [level=3] [ref=f1e135]
+            - paragraph [ref=f1e136]: Start from a real friction point — a campus workflow, a course brief, or something I wish existed. Name the user and the constraint before writing code.
+          - listitem [ref=f1e137]:
+            - generic [aria-hidden] [ref=f1e138]: "02"
+            - heading "Build" [level=3] [ref=f1e139]
+            - paragraph [ref=f1e140]: Ship a working slice quickly. Prefer a boring, solid stack and make the core path usable before adding polish or extra features.
+          - listitem [ref=f1e141]:
+            - generic [aria-hidden] [ref=f1e142]: "03"
+            - heading "Refine" [level=3] [ref=f1e143]
+            - paragraph [ref=f1e144]: Tighten the interface, the data, and the edges until it feels reliable — not just finished. Then write down what I would do differently next time.
+    - generic [ref=f1e146]:
+      - generic [ref=f1e147]:
+        - paragraph [ref=f1e148]: About
+        - heading "Who is Ömer Çakır?" [level=2] [ref=f1e149]
+      - generic [ref=f1e150]:
+        - generic [ref=f1e151]:
+          - article [ref=f1e152]:
+            - heading "Where I came from" [level=3] [ref=f1e153]
+            - paragraph [ref=f1e154]: "Third-year CTIS student at Bilkent. I learned software by shipping: database work for integrity, campus tools for daily friction, and course projects that had to work in front of other people."
+          - article [ref=f1e155]:
+            - heading "Where I’m going" [level=3] [ref=f1e156]
+            - paragraph [ref=f1e157]: Deepening Express.js, React, and DBMS so I can build applications that stay clear under real use. Looking for internships and collaborations where practical architecture matters.
+          - article [ref=f1e158]:
+            - heading "Meanwhile" [level=3] [ref=f1e159]
+            - paragraph [ref=f1e160]: I play guitar and saz, replay story-driven games, and stay moving through swimming and football. Those habits keep the work focused instead of noisy.
+        - complementary [ref=f1e161]:
+          - figure [ref=f1e162]:
+            - img "A desk with a laptop and an external monitor showing code" [ref=f1e163]
+          - heading "Skills & tools" [level=3] [ref=f1e164]
+          - list "Skills" [ref=f1e165]:
+            - listitem [ref=f1e166]: React
+            - listitem [ref=f1e167]: Express.js
+            - listitem [ref=f1e168]: Node.js
+            - listitem [ref=f1e169]: JavaScript
+            - listitem [ref=f1e170]: Django
+            - listitem [ref=f1e171]: EJS
+            - listitem [ref=f1e172]: Ajax
+            - listitem [ref=f1e173]: OpenGL
+            - listitem [ref=f1e174]: HTML / CSS
+            - listitem [ref=f1e175]: DBMS
+            - listitem [ref=f1e176]: Chrome Extensions
+          - generic [ref=f1e177]:
+            - link "Download Resume" [ref=f1e178] [cursor=pointer]:
+              - /url: http://localhost:5001/api/download-resume
+            - link "LinkedIn" [ref=f1e179] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/%C3%B6mer-%C3%A7ak%C4%B1r-b0aa74284/
+            - link "GitHub" [ref=f1e180] [cursor=pointer]:
+              - /url: https://github.com/omercakir2
+    - generic [ref=f1e182]:
+      - generic [ref=f1e183]:
+        - paragraph [ref=f1e184]: Contact
+        - heading "Let’s work together" [level=2] [ref=f1e185]
+        - paragraph [ref=f1e186]: Have a question, internship, or idea? Send a note — I read every message.
+      - generic [ref=f1e187]:
+        - complementary [ref=f1e188]:
+          - generic [ref=f1e189]:
+            - generic [ref=f1e190]:
+              - term [ref=f1e191]: Location
+              - definition [ref=f1e192]: Ankara, Türkiye
+            - generic [ref=f1e193]:
+              - term [ref=f1e194]: GitHub
+              - definition [ref=f1e195]:
+                - link "github.com/omercakir2" [ref=f1e196] [cursor=pointer]:
+                  - /url: https://github.com/omercakir2
+            - generic [ref=f1e197]:
+              - term [ref=f1e198]: LinkedIn
+              - definition [ref=f1e199]:
+                - link "Ömer Çakır" [ref=f1e200] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/%C3%B6mer-%C3%A7ak%C4%B1r-b0aa74284/
+            - generic [ref=f1e201]:
+              - term [ref=f1e202]: Response time
+              - definition [ref=f1e203]: Usually within a few days
+        - generic [ref=f1e204]:
+          - generic [ref=f1e205]:
+            - generic [ref=f1e206]: Your name
+            - textbox "Your name" [ref=f1e207]:
+              - /placeholder: Alex Morgan
+          - generic [ref=f1e208]:
+            - generic [ref=f1e209]: Email
+            - textbox "Email" [ref=f1e210]:
+              - /placeholder: you@example.com
+          - generic [ref=f1e211]:
+            - generic [ref=f1e212]: Message
+            - textbox "Message" [ref=f1e213]:
+              - /placeholder: Tell me a bit about what you have in mind…
+          - generic [ref=f1e214]: "Characters remaining: 500"
+          - button "Send message" [ref=f1e215] [cursor=pointer]
+  - contentinfo [ref=f1e216]:
+    - generic [ref=f1e217]:
+      - paragraph [ref=f1e218]:
+        - text: © 2026
+        - strong [ref=f1e219]: Ömer Çakır
+        - text: . Crafted with care.
+      - navigation "Primary" [ref=f1e220]:
+        - link "Work" [ref=f1e221] [cursor=pointer]:
+          - /url: "#projects"
+        - link "About" [ref=f1e222] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=f1e223] [cursor=pointer]:
+          - /url: "#contact"
+      - paragraph [ref=f1e224]: I would be happy to meet you if you are reading this :)

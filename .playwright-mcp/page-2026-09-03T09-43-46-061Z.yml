@@ -1,0 +1,65 @@
+- generic [active] [ref=e1]:
+  - generic "Interactive liquid circles. Click or tap a circle to bounce it, drag to draw, and double-click or double-tap a circle to pop it." [ref=e2]
+  - generic:
+    - generic:
+      - generic: Yichen Xie
+      - generic: 5 YOE
+      - generic: Designer + Engineer
+    - generic:
+      - generic: previously
+      - generic: Microsoft Windows + Devices
+    - generic:
+      - generic: B.Des IxD
+      - generic: University of Washington
+  - generic:
+    - banner:
+      - generic:
+        - img "一宸"
+      - navigation [ref=e3]:
+        - button "Switch to dark mode" [ref=e5]
+        - link "Projects" [ref=e9]:
+          - /url: "#work"
+        - link "Playground" [ref=e10]:
+          - /url: playground/
+        - link "About" [ref=e11]:
+          - /url: /about
+    - contentinfo:
+      - link "View projects" [ref=e12]:
+        - /url: "#work"
+        - generic [ref=e13]: view project
+  - main:
+    - region "Selected projects" [ref=e15]:
+      - generic [ref=e16]:
+        - generic "Filter projects" [ref=e17]:
+          - button "Design System" [ref=e18]
+          - button "AI Native" [ref=e19]
+          - button "Corporate" [ref=e20]
+          - button "Concept" [ref=e21]
+          - button "End-to-end" [ref=e22]
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - link "StayPass" [ref=e25]:
+              - /url: /staypass
+          - listitem [ref=e26]:
+            - link "Microsoft" [ref=e27]:
+              - /url: /microsoft
+          - listitem [ref=e28]:
+            - link "Mockordings" [ref=e29]:
+              - /url: /mockordings
+          - listitem [ref=e30]:
+            - link "invoko.ai" [ref=e31]:
+              - /url: /invoko_ai
+          - listitem [ref=e32]:
+            - link "Dim App" [ref=e33]:
+              - /url: /dim
+          - listitem [ref=e34]:
+            - link "Arcade Brick" [ref=e35]:
+              - /url: /arcade-brick
+          - listitem [ref=e36]:
+            - link "UW Design 2022 Web" [ref=e37]:
+              - /url: /uwdesign
+  - contentinfo:
+    - generic:
+      - generic: My local time
+      - generic: 12:43:45 PM GMT+3
+    - generic: © 2026 Yichen Xie
