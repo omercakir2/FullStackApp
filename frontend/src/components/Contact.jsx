@@ -60,53 +60,16 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="section contact">
+    <section id="contact" className="section">
       <div className="container">
-        <div className="contact-intro">
+        <header className="section-head">
           <p className="section-label">{c.label}</p>
           <h2 className="section-title">{c.title}</h2>
           <p className="section-lead">{c.lead}</p>
-        </div>
+        </header>
 
-        <div className="contact-layout">
-          <aside className="contact-info">
-            <dl className="contact-details">
-              <div>
-                <dt>{c.location}</dt>
-                <dd>{c.locationValue}</dd>
-              </div>
-              <div>
-                <dt>GitHub</dt>
-                <dd>
-                  <a
-                    href="https://github.com/omercakir2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    github.com/omercakir2
-                  </a>
-                </dd>
-              </div>
-              <div>
-                <dt>LinkedIn</dt>
-                <dd>
-                  <a
-                    href="https://www.linkedin.com/in/%C3%B6mer-%C3%A7ak%C4%B1r-b0aa74284/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ömer Çakır
-                  </a>
-                </dd>
-              </div>
-              <div>
-                <dt>{c.responseTime}</dt>
-                <dd>{c.responseValue}</dd>
-              </div>
-            </dl>
-          </aside>
-
-          <form className="contact-form" onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <div className="form-row">
             <div className="form-field">
               <label htmlFor="name">{c.name}</label>
               <input
@@ -132,39 +95,74 @@ function Contact() {
                 required
               />
             </div>
+          </div>
 
-            <div className="form-field">
-              <label htmlFor="message">{c.message}</label>
-              <textarea
-                id="message"
-                ref={messageRef}
-                name="message"
-                maxLength={500}
-                placeholder={c.messagePlaceholder}
-                required
-                onChange={handleMessageChange}
-              />
+          <div className="form-field">
+            <label htmlFor="message">{c.message}</label>
+            <textarea
+              id="message"
+              ref={messageRef}
+              name="message"
+              maxLength={500}
+              placeholder={c.messagePlaceholder}
+              required
+              onChange={handleMessageChange}
+            />
+          </div>
+
+          <div className="char-counter">
+            {c.charsRemaining} <span>{500 - charCount}</span>
+          </div>
+
+          {status && (
+            <div
+              className={`form-status ${status.type}`}
+              role="status"
+              aria-live="polite"
+            >
+              {status.message}
             </div>
+          )}
 
-            <div className="char-counter">
-              {c.charsRemaining} <span>{500 - charCount}</span>
-            </div>
+          <button disabled={isLoading} type="submit" className="submit-btn">
+            {isLoading ? c.sending : c.send}
+          </button>
+        </form>
 
-            {status && (
-              <div
-                className={`form-status ${status.type}`}
-                role="status"
-                aria-live="polite"
+        <dl className="contact-details">
+          <div>
+            <dt>{c.location}</dt>
+            <dd>{c.locationValue}</dd>
+          </div>
+          <div>
+            <dt>GitHub</dt>
+            <dd>
+              <a
+                href="https://github.com/omercakir2"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                {status.message}
-              </div>
-            )}
-
-            <button disabled={isLoading} type="submit" className="submit-btn">
-              {isLoading ? c.sending : c.send}
-            </button>
-          </form>
-        </div>
+                github.com/omercakir2
+              </a>
+            </dd>
+          </div>
+          <div>
+            <dt>LinkedIn</dt>
+            <dd>
+              <a
+                href="https://www.linkedin.com/in/%C3%B6mer-%C3%A7ak%C4%B1r-b0aa74284/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ömer Çakır
+              </a>
+            </dd>
+          </div>
+          <div>
+            <dt>{c.responseTime}</dt>
+            <dd>{c.responseValue}</dd>
+          </div>
+        </dl>
       </div>
     </section>
   );

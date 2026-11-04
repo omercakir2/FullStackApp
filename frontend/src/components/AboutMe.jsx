@@ -47,6 +47,8 @@ const skills = [
   "HTML / CSS / JS",
   "DBMS",
   "Chrome Extensions",
+  "Unity",
+  "Docker",
 ];
 
 function AboutMe() {
@@ -54,52 +56,49 @@ function AboutMe() {
   const a = t.about;
 
   return (
-    <section id="about" className="section about">
+    <section id="about" className="section">
       <div className="container">
-        <div className="about-layout">
+        <div className="about-intro">
           <header className="about-header">
             <p className="section-label">{a.label}</p>
             <h2 className="section-title">{a.title}</h2>
           </header>
 
-          <div className="about-body">
-            <div className="about-prose">
-              <p>{a.p1}</p>
-              <p>{a.p2}</p>
-              <p>{a.p3}</p>
-              <p className="about-closing">{a.closing}</p>
-            </div>
+          <div className="about-prose">
+            <p>{a.p1}</p>
+            <p>{a.p2}</p>
+            <p>{a.p3}</p>
+          </div>
+        </div>
 
-            <aside className="about-aside">
-              <h3 className="about-aside-title">{a.toolsTitle}</h3>
-              <ul className="skills-list" aria-label={a.skillsAria}>
-                {skills.map((skill) => (
-                  <li key={skill}>{skill}</li>
-                ))}
-              </ul>
+        <p className="about-closing">{a.closing}</p>
 
-              <div className="about-actions">
-                <Button
-                  variant="icon"
-                  tone="linkedin"
-                  text="LinkedIn"
-                  link="https://www.linkedin.com/in/%C3%B6mer-%C3%A7ak%C4%B1r-b0aa74284/"
-                  icon={<LinkedInIcon />}
-                />
-                <Button
-                  variant="icon"
-                  tone="github"
-                  text="GitHub"
-                  link="https://github.com/omercakir2"
-                  icon={<GitHubIcon />}
-                />
-                <Button
-                  text={a.resume}
-                  link={`${import.meta.env.VITE_API_URL}/api/download-resume`}
-                  icon={<DownloadIcon />}
-                />
-              </div>
-            </aside>
+        <div className="about-tools">
+          <h3 className="about-aside-title">{a.toolsTitle}</h3>
+          <ul className="skills-list" aria-label={a.skillsAria}>
+            {skills.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+
+          <div className="about-actions">
+            <Button
+              variant="icon"
+              text="LinkedIn"
+              link="https://www.linkedin.com/in/%C3%B6mer-%C3%A7ak%C4%B1r-b0aa74284/"
+              icon={<LinkedInIcon />}
+            />
+            <Button
+              variant="icon"
+              text="GitHub"
+              link="https://github.com/omercakir2"
+              icon={<GitHubIcon />}
+            />
+            <Button
+              text={a.resume}
+              link={`${import.meta.env.VITE_API_URL}/api/download-resume`}
+              icon={<DownloadIcon />}
+            />
           </div>
         </div>
       </div>
