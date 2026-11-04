@@ -6,7 +6,6 @@ import { gameProject } from "../gameProject";
 import maqr_demo from "/maqr_demo.png";
 import attendance1 from "/attendance1.png";
 import attendance2 from "/attendance2.png";
-import tap_demo from "/tap_demo.png";
 import greenmarkt1 from "/greenmarkt1.png";
 import greenmarkt2 from "/greenmarkt2.png";
 import greenmarkt3 from "/greenmarkt3.png";
@@ -41,10 +40,6 @@ const projectMeta = [
   {
     img_link: [attendance1, attendance2],
     link: "https://github.com/omercakir2/StarsAttendanceCalculator",
-  },
-  {
-    img_link: [tap_demo],
-    link: "https://github.com/omercakir2/FrontEnd_Project",
   },
 ];
 
@@ -83,7 +78,7 @@ function Projects() {
               content={project.content}
               img_link={project.img_link}
               expandLabel={p.expandLabel}
-              featured={index === 0}
+              featured={index === 0 || (index === myProjects.length - 1 && index % 2 === 1)}
               onOpen={() => (project.page ? openPage(project.page) : setExpanded(project))}
             />
           ))}
