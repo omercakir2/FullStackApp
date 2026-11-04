@@ -2,6 +2,7 @@ import { useCallback, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectExpand from "./ProjectExpand";
 import { useLanguage } from "../i18n/LanguageContext";
+import { gameProject } from "../gameProject";
 import maqr_demo from "/maqr_demo.png";
 import attendance1 from "/attendance1.png";
 import attendance2 from "/attendance2.png";
@@ -17,6 +18,10 @@ import network_1 from "/network_1.jpeg"
 
 
 const projectMeta = [
+  {
+    img_link: [gameProject.poster],
+    page: gameProject.route,
+  },
   {
     img_link : [network_0,network_1],
     link: "https://github.com/omercakir2/network_practices"
@@ -43,6 +48,12 @@ const projectMeta = [
   },
 ];
 
+function openPage(route) {
+  /* so the browser's Back button returns to this section */
+  window.history.replaceState(null, "", "#projects");
+  window.location.hash = route;
+}
+
 function Projects() {
   const { t } = useLanguage();
   const p = t.projects;
@@ -56,27 +67,24 @@ function Projects() {
   const closeExpand = useCallback(() => setExpanded(null), []);
 
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section projects">
       <div className="container">
-        <div className="projects-header">
-          <div>
-            <p className="section-label">{p.label}</p>
-            <h2 className="section-title">{p.title}</h2>
-            <p className="section-lead">{p.lead}</p>
-          </div>
-        </div>
+        <header className="section-head">
+          <p className="section-label">{p.label}</p>
+          <h2 className="section-title">{p.title}</h2>
+          <p className="section-lead">{p.lead}</p>
+        </header>
 
         <div className="projects-grid">
           {myProjects.map((project, index) => (
             <ProjectCard
-              key={project.link}
+              key={project.link || project.page}
               title={project.title}
               content={project.content}
               img_link={project.img_link}
               expandLabel={p.expandLabel}
-              index={index}
               featured={index === 0}
-              onOpen={() => setExpanded(project)}
+              onOpen={() => (project.page ? openPage(project.page) : setExpanded(project))}
             />
           ))}
         </div>

@@ -1,9 +1,6 @@
-export default function Button({ text, link, icon, variant = "text", tone }) {
+export default function Button({ text, link, icon, variant = "text" }) {
   const label = String(text);
-  const className =
-    variant === "icon"
-      ? `social-orb${tone ? ` social-orb-${tone}` : ""}`
-      : "social-btn";
+  const className = variant === "icon" ? "social-orb" : "social-btn";
 
   return (
     <a

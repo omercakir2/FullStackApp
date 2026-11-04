@@ -1,3 +1,5 @@
+const GAME_TITLE = "The Seventh Waking";
+
 const translations = {
   en: {
     nav: {
@@ -17,7 +19,7 @@ const translations = {
       intro: "Ömer Çakır · CTIS, Bilkent University",
       title: "Ömer Çakır",
       subtitle:
-        "Third year CTIS student focused on full-stack tools — from campus workflows to products people actually use. Currently open to internships and collaborations.",
+        "Third year CTIS student at Bilkent. I like developing web apps, games and small tools. Open to internships and collaborations.",
       viewProjects: "View projects",
       getInTouch: "Get in touch",
       shipped: "Shipped",
@@ -32,20 +34,20 @@ const translations = {
     },
     about: {
       label: "About",
-      title: "Who is Ömer Çakır?",
-      p1: "I am a third year CTIS student at Bilkent University. I've always believed that software engineering is learned by building. My academic path is driven by a desire to turn complex theories into functional tools.",
-      p2: "Whether it's mastering database normalization to ensure data integrity or developing specialized Chrome extensions like the Bilkent Attendance Automator to solve campus-wide pain points, I focus on practical impact. Currently, I am deepening my expertise in Express.js, React, and the DBMS ecosystem — aiming to build scalable applications that bridge elegant code and real-world utility.",
-      p3: "Outside of code, I spend a lot of time with music; I play both the guitar and the saz. I'm a fan of story-driven games like Ghost of Tsushima and Detroit: Become Human. To stay active, I swim and play football — habits that keep me creative and focused.",
+      title: "A bit about me",
+      p1: "I'm a third year CTIS student at Bilkent. I learn best by building things, so most of what I know comes from projects.",
+      p2: "I've taken many technical courses like networking, databases and backend. Alongside my classes, I like making time for my own personal projects.",
+      p3: "Outside of code I play guitar and saz. I like story games like Ghost of Tsushima and Detroit: Become Human. I also swim and play football.",
       closing:
-        "I care about clarity, practical architecture, and interfaces people actually enjoy using. I move quickly from idea to prototype, then refine until the experience feels solid — not just functional.",
+        "I like simple things that work. I build something quickly, then keep fixing it until I'm happy with it.",
       toolsTitle: "Tools I use",
       skillsAria: "Skills",
       resume: "Download Resume",
     },
     projects: {
       label: "Work",
-      title: "Selected projects",
-      lead: "Coursework and personal builds spanning full-stack apps, games, and campus tooling.",
+      title: "Projects",
+      lead: "School projects and things I built on my own.",
       expandLabel: "View details",
       viewRepo: "View repository",
       closeLabel: "Close project details",
@@ -53,40 +55,61 @@ const translations = {
       nextImage: "Next image",
       items: [
         {
+          title: `${GAME_TITLE} - Demo`,
+          content:
+            "When the sun never rose, people took shelter in the capsules of Facility 07. They were told they would sleep for a hundred years; that was a lie. You have been woken seven times, and a machine called Ayna erased your memories every time. Now you wake once more in the dark. And the thing crawling toward you in the courtyard might be the previous you.",
+        },
+        {
           title : "Network Management System",
-          content: "Designed and built an end-to-end LAN network management stack using concurrent Go programming for device discovery and monitoring , TimescaleDB for time-series inventory, an LSTM model for forecasting, and an interactive graph UI."
+          content: "A tool for managing devices on a LAN. It uses Go to find and monitor devices, TimescaleDB to store the data, an LSTM model for forecasting, and a graph view of the network."
         },
         {
           title: "GreenMarkt",
           content:
-            "Full-stack web application team project using Node.js, Express, EJS, and Ajax for a backend development course.",
+            "Team project for a backend course. A full-stack web app built with Node.js, Express, EJS and Ajax.",
         },
         {
           title: "Hitting the Balloons",
           content:
-            "Game developed using OpenGL and GLUT for the Technical Mathematics with Programming course.",
+            "A game I made with OpenGL and GLUT for the Technical Mathematics with Programming course.",
         },
         {
           title: "Dynamic QR Generator",
           content:
-            "A web application for generating and managing dynamic QR codes using Django.",
+            "A Django web app for creating and managing dynamic QR codes.",
         },
         {
           title: "Bilkent Attendance Counter",
           content:
-            "A Chrome Extension for Bilkent University’s STARS system, automating attendance tracking and providing real-time data for students.",
+            "A Chrome extension for Bilkent's STARS system that tracks your attendance automatically.",
         },
         {
           title: "Tap the Black Tiles",
           content:
-            "An interactive, reflex-based web game developed using vanilla JavaScript, HTML5, and CSS3. Features dynamic DOM manipulation and optimized event handling for real-time interaction and score tracking.",
+            "A reflex game made with plain JavaScript, HTML and CSS. Tap the black tiles and watch your score go up.",
         },
       ],
     },
+    game: {
+      back: "All projects",
+      label: "Game demo",
+      title: GAME_TITLE,
+      lead: "When the sun never rose, people took shelter in the capsules of Facility 07.",
+      videoLabel: "Gameplay demo video",
+      videoTitle: "Gameplay demo",
+      videoLength: "2 min",
+      playLabel: "Play gameplay demo",
+      overviewTitle: "About the game",
+      overview: [
+        "They were told they would sleep for a hundred years; that was a lie.",
+        "You have been woken seven times, and a machine called Ayna erased your memories every time. Now you wake once more in the dark. And the thing crawling toward you in the courtyard might be the previous you.",
+      ],
+      screenshotsTitle: "Screenshots",
+    },
     contact: {
       label: "Contact",
-      title: "Let’s build something together",
-      lead: "Have a question, opportunity, or idea? Send a message — I read every note.",
+      title: "Say hi",
+      lead: "Have a question or an idea? Send me a message.",
       location: "Location",
       locationValue: "Ankara, Türkiye",
       responseTime: "Response time",
@@ -96,17 +119,17 @@ const translations = {
       email: "Email",
       emailPlaceholder: "you@example.com",
       message: "Message",
-      messagePlaceholder: "Tell me a bit about what you have in mind…",
+      messagePlaceholder: "Write your message here…",
       charsRemaining: "Characters remaining:",
       send: "Send message",
       sending: "Sending…",
-      success: "Message sent successfully. I’ll get back to you soon.",
+      success: "Message sent. I'll get back to you soon.",
       errorRateLimit: "Too many requests. Please try again later.",
       errorGeneric: "Something went wrong. Please try again.",
       errorConnection: "Connection error. Is the backend running?",
     },
     footer: {
-      crafted: "Crafted with care.",
+      crafted: "Built with React.",
       note: "I would be happy to meet you if you are reading this :)",
     },
   },
@@ -128,7 +151,7 @@ const translations = {
       intro: "Ömer Çakır · CTIS, Bilkent Üniversitesi",
       title: "Ömer Çakır",
       subtitle:
-        "Üçüncü sınıf CTIS öğrencisiyim. Kampüs iş akışlarından insanların gerçekten kullandığı ürünlere kadar full-stack araçlara odaklanıyorum. Staj ve iş birliklerine açığım.",
+        "Bilkent'te CTIS 3. sınıf öğrencisiyim. Web uygulamaları, oyunlar ve küçük araçlar geliştirmeyi seviyorum. Staj ve ortak projelere açığım.",
       viewProjects: "Projelere bak",
       getInTouch: "İletişime geç",
       shipped: "Teslim",
@@ -143,20 +166,20 @@ const translations = {
     },
     about: {
       label: "Hakkımda",
-      title: "Ömer Çakır kimdir?",
-      p1: "Bilkent Üniversitesi CTIS bölümünde 3. sınıf öğrencisiyim. Yazılım mühendisliğinin inşa ederek öğrenildiğine her zaman inandım. Akademik yolum, karmaşık teorileri işlevsel araçlara dönüştürme isteğiyle şekilleniyor.",
-      p2: "Veri bütünlüğü için veritabanı normalizasyonunu öğrenmekten, kampüs genelindeki sorunları çözen Bilkent Devam Otomatizasyonu gibi Chrome eklentileri geliştirmeye kadar pratik etkiye odaklanıyorum. Şu anda Express.js, React ve DBMS ekosisteminde uzmanlığımı derinleştiriyor; zarif kod ile gerçek dünya faydasını birleştiren ölçeklenebilir uygulamalar üretmeyi hedefliyorum.",
-      p3: "Kod dışında müzikle çok vakit geçiriyorum; hem gitar hem saz çalıyorum. Ghost of Tsushima ve Detroit: Become Human gibi hikâye odaklı oyunların hayranıyım. Aktif kalmak için yüzüyor ve futbol oynuyorum — bunlar yaratıcılığımı ve odaklanmamı koruyor.",
+      title: "Kısaca ben",
+      p1: "Bilkent CTIS 3. sınıftayım. En iyi bir şeyler yaparak öğreniyorum, bildiklerimin çoğu da projelerden geliyor.",
+      p2: "Network, veritabanı, backend gibi birçok teknik ders verdim. Derslerime devam etmenin yanında kendi kişisel projelerime de vakit ayırmayı seviyorum.",
+      p3: "Kod dışında gitar ve saz çalıyorum. Ghost of Tsushima ve Detroit: Become Human gibi hikâyeli oyunları seviyorum. Bir de yüzüyorum ve futbol oynuyorum.",
       closing:
-        "Netlik, pratik mimari ve insanların gerçekten keyifle kullandığı arayüzler önemsiyorum. Fikirden prototipe hızlı geçip, deneyim yalnızca işlevsel değil, sağlam hissedene kadar inceliyorum.",
+        "Basit ve çalışan şeyleri seviyorum. Önce hızlıca yapıyorum, sonra içime sinene kadar düzeltiyorum.",
       toolsTitle: "Kullandığım araçlar",
       skillsAria: "Beceriler",
       resume: "Özgeçmişi İndir",
     },
     projects: {
       label: "İşler",
-      title: "Seçili projeler",
-      lead: "Full-stack uygulamalar, oyunlar ve kampüs araçlarını kapsayan ders ve kişisel çalışmalar.",
+      title: "Projeler",
+      lead: "Okul projeleri ve kendi yaptığım şeyler.",
       expandLabel: "Detayları gör",
       viewRepo: "Depoyu görüntüle",
       closeLabel: "Proje detaylarını kapat",
@@ -164,60 +187,81 @@ const translations = {
       nextImage: "Sonraki görsel",
       items: [
         {
+          title: `${GAME_TITLE} - Demo`,
+          content:
+            "Güneş doğmayınca insanlar Facility 07'nin kapsüllerine sığındı. Onlara yüz yıl uyuyacakları söylendi; bu bir yalandı. Sen yedi kez uyandırıldın ve Ayna adlı makine her seferinde anılarını sildi. Şimdi karanlıkta yeniden uyanıyorsun. Avluda sana doğru sürünen şey ise önceki sen olabilir.",
+        },
+        {
           title : "Ağ Yönetim Sistemi",
-          content: "Cihaz keşfi ve izleme için eş zamanlı Go programlama, zaman serisi envanteri için TimescaleDB, tahmin için LSTM modeli ve etkileşimli grafik arayüzü kullanarak uçtan uca bir LAN ağ yönetim yığını"
+          content: "LAN'daki cihazları yönetmek için yaptığım bir araç. Cihazları bulup izlemek için Go, verileri tutmak için TimescaleDB, tahmin için LSTM modeli kullanıyor. Ağı da grafik olarak gösteriyor."
         },
         {
           title: "GreenMarkt",
           content:
-            "Backend geliştirme dersi için Node.js, Express, EJS ve Ajax kullanan full-stack web uygulaması ekip projesi.",
+            "Backend dersi için yaptığımız ekip projesi. Node.js, Express, EJS ve Ajax ile yazılmış full-stack bir web uygulaması.",
         },
         {
           title: "Hitting the Balloons",
           content:
-            "Programlamalı Teknik Matematik dersi için OpenGL ve GLUT ile geliştirilmiş oyun.",
+            "Programlamalı Teknik Matematik dersi için OpenGL ve GLUT ile yaptığım bir oyun.",
         },
         {
           title: "Dynamic QR Generator",
           content:
-            "Django ile dinamik QR kodları oluşturup yönetmeye yarayan bir web uygulaması.",
+            "Dinamik QR kod oluşturup yönetmeye yarayan bir Django uygulaması.",
         },
         {
           title: "Bilkent Attendance Counter",
           content:
-            "Bilkent Üniversitesi STARS sistemi için devam takibini otomatikleştiren ve öğrencilere gerçek zamanlı veri sunan bir Chrome eklentisi.",
+            "Bilkent'in STARS sistemi için devamsızlığını otomatik takip eden bir Chrome eklentisi.",
         },
         {
           title: "Tap the Black Tiles",
           content:
-            "Vanilla JavaScript, HTML5 ve CSS3 ile geliştirilmiş etkileşimli, refleks tabanlı bir web oyunu. Dinamik DOM manipülasyonu ve gerçek zamanlı etkileşim ile skor takibi için optimize edilmiş olay yönetimi içerir.",
+            "Düz JavaScript, HTML ve CSS ile yaptığım bir refleks oyunu. Siyah kareleri tıkla, skorun artsın.",
         },
       ],
     },
+    game: {
+      back: "Tüm projeler",
+      label: "Oyun demosu",
+      title: GAME_TITLE,
+      lead: "Güneş doğmayınca insanlar Facility 07'nin kapsüllerine sığındı.",
+      videoLabel: "Oynanış demo videosu",
+      videoTitle: "Oynanış demosu",
+      videoLength: "2 dk",
+      playLabel: "Oynanış demosunu oynat",
+      overviewTitle: "Oyun hakkında",
+      overview: [
+        "Onlara yüz yıl uyuyacakları söylendi; bu bir yalandı.",
+        "Sen yedi kez uyandırıldın ve Ayna adlı makine her seferinde anılarını sildi. Şimdi karanlıkta yeniden uyanıyorsun. Avluda sana doğru sürünen şey ise önceki sen olabilir.",
+      ],
+      screenshotsTitle: "Ekran görüntüleri",
+    },
     contact: {
       label: "İletişim",
-      title: "Birlikte bir şeyler inşa edelim",
-      lead: "Bir sorunuz, fırsatınız veya fikriniz mi var? Mesaj gönderin — her notu okuyorum.",
+      title: "Bana yaz",
+      lead: "Sorun ya da bir fikrin varsa mesaj at.",
       location: "Konum",
       locationValue: "Ankara, Türkiye",
       responseTime: "Yanıt süresi",
       responseValue: "Genellikle birkaç gün içinde",
-      name: "Adınız",
+      name: "Adın",
       namePlaceholder: "Mustafa Parlak",
       email: "E-posta",
-      emailPlaceholder: "siz@ornek.com",
+      emailPlaceholder: "sen@ornek.com",
       message: "Mesaj",
-      messagePlaceholder: "Aklınızdakilerden biraz bahsedin…",
+      messagePlaceholder: "Mesajını buraya yaz…",
       charsRemaining: "Kalan karakter:",
       send: "Mesaj gönder",
       sending: "Gönderiliyor…",
-      success: "Mesaj başarıyla gönderildi. En kısa sürede dönüş yapacağım.",
+      success: "Mesajın gönderildi. En kısa sürede dönerim.",
       errorRateLimit: "Çok fazla istek. Lütfen daha sonra tekrar deneyin.",
       errorGeneric: "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
       errorConnection: "Bağlantı hatası. Backend çalışıyor mu?",
     },
     footer: {
-      crafted: "Özenle hazırlandı.",
+      crafted: "React ile yapıldı.",
       note: "Bunu okuyorsan tanışmaktan mutluluk duyarım :)",
     },
   },
