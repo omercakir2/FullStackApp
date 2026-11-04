@@ -100,6 +100,40 @@ function Gallery({ g, prevLabel, nextLabel }) {
   );
 }
 
+function TechDetails({ g }) {
+  return (
+    <section className="container game-tech">
+      <h2>{g.techTitle}</h2>
+
+      <div className="game-tech-row">
+        <h3>{g.specsTitle}</h3>
+        <dl className="game-specs">
+          {g.specs.map(({ label, value }) => (
+            <div key={label}>
+              <dt>{label}</dt>
+              <dd>{value}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+
+      {g.tech.map(({ title, text, items }) => (
+        <div className="game-tech-row" key={title}>
+          <h3>{title}</h3>
+          {text && <p>{text}</p>}
+          {items && (
+            <ul>
+              {items.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
+    </section>
+  );
+}
+
 function GameProject() {
   const { t } = useLanguage();
   const g = t.game;
@@ -136,6 +170,8 @@ function GameProject() {
       </section>
 
       <Gallery g={g} prevLabel={t.projects.prevImage} nextLabel={t.projects.nextImage} />
+
+      <TechDetails g={g} />
     </article>
   );
 }
