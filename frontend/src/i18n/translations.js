@@ -83,11 +83,6 @@ const translations = {
           content:
             "A Chrome extension for Bilkent's STARS system that tracks your attendance automatically.",
         },
-        {
-          title: "Tap the Black Tiles",
-          content:
-            "A reflex game made with plain JavaScript, HTML and CSS. Tap the black tiles and watch your score go up.",
-        },
       ],
     },
     game: {
@@ -258,11 +253,6 @@ const translations = {
           title: "Bilkent Attendance Counter",
           content:
             "Bilkent'in STARS sistemi için devamsızlığını otomatik takip eden bir Chrome eklentisi.",
-        },
-        {
-          title: "Tap the Black Tiles",
-          content:
-            "Düz JavaScript, HTML ve CSS ile yaptığım bir refleks oyunu. Siyah kareleri tıkla, skorun artsın.",
         },
       ],
     },
