@@ -57,7 +57,7 @@ const translations = {
         {
           title: `${GAME_TITLE} - Demo`,
           content:
-            "When the sun never rose, people took shelter in the capsules of Facility 07. They were told they would sleep for a hundred years; that was a lie. You have been woken seven times, and a machine called Ayna erased your memories every time. Now you wake once more in the dark. And the thing crawling toward you in the courtyard might be the previous you.",
+            "A third-person horror and survival game demo I developed on my own with Unity. When the sun never rose, people took shelter in the capsules of Facility 07. They were told they would sleep for a hundred years; that was a lie.",
         },
         {
           title : "Network Management System",
@@ -94,17 +94,61 @@ const translations = {
       back: "All projects",
       label: "Game demo",
       title: GAME_TITLE,
-      lead: "When the sun never rose, people took shelter in the capsules of Facility 07.",
+      lead: "A third-person horror and survival game demo I developed on my own with Unity.",
       videoLabel: "Gameplay demo video",
       videoTitle: "Gameplay demo",
       videoLength: "2 min",
       playLabel: "Play gameplay demo",
       overviewTitle: "About the game",
       overview: [
-        "They were told they would sleep for a hundred years; that was a lie.",
+        "When the sun never rose, people took shelter in the capsules of Facility 07. They were told they would sleep for a hundred years; that was a lie.",
         "You have been woken seven times, and a machine called Ayna erased your memories every time. Now you wake once more in the dark. And the thing crawling toward you in the courtyard might be the previous you.",
       ],
       screenshotsTitle: "Screenshots",
+      techTitle: "Technical details",
+      specsTitle: "Tech stack",
+      specs: [
+        { label: "Game engine", value: "Unity 6 (6000.6.5f1)" },
+        { label: "Rendering", value: "Universal Render Pipeline (URP) 17.6, Forward+" },
+        { label: "Camera and cinematics", value: "Cinemachine 6.6" },
+        { label: "Input", value: "Unity Input System 1.20" },
+        { label: "AI movement", value: "AI Navigation 2.0" },
+        { label: "UI", value: "Unity UI (uGUI) and TextMeshPro" },
+        { label: "Language", value: "C#, around 87 scripts and 18,900 lines" },
+        { label: "Characters and animation", value: "Mixamo" },
+      ],
+      tech: [
+        {
+          title: "Characters and animation",
+          text: "The player and zombie characters and their animations come from Mixamo. An Animator Controller handles states like climbing, vaulting, shooting, standing up, crawling, screaming, running and dying. Foot IK keeps the feet placed correctly on stairs.",
+        },
+        {
+          title: "Camera and cinematics",
+          text: "In-game, I use a Cinemachine Third Person Follow camera. The opening cinematic runs on a custom C# script: a Cinemachine camera circles the capsule, short memory shots cut in, then the capsule opens and control passes to the player. I also wrote the timed subtitles and the music transitions for this game.",
+        },
+        {
+          title: "Game systems",
+          items: [
+            "Vaulting and climbing using LedgeMarker markers",
+            "Pistol, ammo and inventory",
+            "Throwable light ball",
+            "Zombie AI that dies after three hits, with a hit marker and blood effect",
+            "Rain and ground splashes",
+          ],
+        },
+        {
+          title: "Visual polish",
+          text: "I added a wet asphalt material, realtime reflection probes, light volumes around the lamps, film grain and motion blur. A 1080p test build reached 110+ FPS at the three spots I measured. Running and zombie chases aren't included in that measurement.",
+        },
+        {
+          title: "Third-party assets",
+          items: [
+            "Environment and props: Industrial, SciFiCapsule, Realistic Terrain Textures Lite, GrassFlowersFREE and other Asset Store packs",
+            "Blood effect: Blood Gush (BloodDecalsAndEffects)",
+            "Weapon sounds: FreeWeaponSFX",
+          ],
+        },
+      ],
     },
     contact: {
       label: "Contact",
@@ -189,7 +233,7 @@ const translations = {
         {
           title: `${GAME_TITLE} - Demo`,
           content:
-            "Güneş doğmayınca insanlar Facility 07'nin kapsüllerine sığındı. Onlara yüz yıl uyuyacakları söylendi; bu bir yalandı. Sen yedi kez uyandırıldın ve Ayna adlı makine her seferinde anılarını sildi. Şimdi karanlıkta yeniden uyanıyorsun. Avluda sana doğru sürünen şey ise önceki sen olabilir.",
+            "Unity ile tek başıma geliştirdiğim üçüncü şahıs korku ve hayatta kalma oyunu demosu. Güneş doğmayınca insanlar Facility 07'nin kapsüllerine sığındı. Onlara yüz yıl uyuyacakları söylendi; bu bir yalandı.",
         },
         {
           title : "Ağ Yönetim Sistemi",
@@ -226,17 +270,61 @@ const translations = {
       back: "Tüm projeler",
       label: "Oyun demosu",
       title: GAME_TITLE,
-      lead: "Güneş doğmayınca insanlar Facility 07'nin kapsüllerine sığındı.",
+      lead: "Unity ile tek başıma geliştirdiğim üçüncü şahıs korku ve hayatta kalma oyunu demosu.",
       videoLabel: "Oynanış demo videosu",
       videoTitle: "Oynanış demosu",
       videoLength: "2 dk",
       playLabel: "Oynanış demosunu oynat",
       overviewTitle: "Oyun hakkında",
       overview: [
-        "Onlara yüz yıl uyuyacakları söylendi; bu bir yalandı.",
+        "Güneş doğmayınca insanlar Facility 07'nin kapsüllerine sığındı. Onlara yüz yıl uyuyacakları söylendi; bu bir yalandı.",
         "Sen yedi kez uyandırıldın ve Ayna adlı makine her seferinde anılarını sildi. Şimdi karanlıkta yeniden uyanıyorsun. Avluda sana doğru sürünen şey ise önceki sen olabilir.",
       ],
       screenshotsTitle: "Ekran görüntüleri",
+      techTitle: "Teknik detaylar",
+      specsTitle: "Kullanılan teknolojiler",
+      specs: [
+        { label: "Oyun motoru", value: "Unity 6 (6000.6.5f1)" },
+        { label: "Görüntüleme", value: "Universal Render Pipeline (URP) 17.6, Forward+" },
+        { label: "Kamera ve sinematik", value: "Cinemachine 6.6" },
+        { label: "Girdi sistemi", value: "Unity Input System 1.20" },
+        { label: "Yapay zekâ hareketi", value: "AI Navigation 2.0" },
+        { label: "Arayüz", value: "Unity UI (uGUI) ve TextMeshPro" },
+        { label: "Dil", value: "C#, yaklaşık 87 script ve 18.900 satır" },
+        { label: "Karakter ve animasyon", value: "Mixamo" },
+      ],
+      tech: [
+        {
+          title: "Karakter ve animasyon",
+          text: "Oyuncu ve zombi karakterlerini ve animasyonlarını Mixamo'dan aldım. Tırmanma, engel aşma, ateş etme, ayağa kalkma, sürünme, çığlık, koşma ve ölüm gibi durumları Animator Controller ile yönetiyorum. Merdivenlerde ayakların doğru basması için foot IK kullandım.",
+        },
+        {
+          title: "Kamera ve sinematikler",
+          text: "Oyun içinde Cinemachine Third Person Follow kamerası kullanıyorum. Açılış sinematiğini kendi yazdığım bir C# script'i yönetiyor: Cinemachine kamerası kapsülün çevresinde dönüyor, kısa anı görüntüleri giriyor, ardından kapsül açılıyor ve kontrol oyuncuya geçiyor. Zamanlı altyazıları ve geçişli müzik sistemini de oyuna özel yazdım.",
+        },
+        {
+          title: "Oyun sistemleri",
+          items: [
+            "LedgeMarker işaretçileriyle engel aşma ve tırmanma",
+            "Tabanca, cephane ve envanter",
+            "Fırlatılabilir ışık topu",
+            "Üç isabette ölen zombi yapay zekâsı, isabet işareti ve kan efekti",
+            "Yağmur ve zemin sıçramaları",
+          ],
+        },
+        {
+          title: "Görsel iyileştirme",
+          text: "Islak asfalt materyali, realtime reflection probe'lar, lamba çevresinde ışık hacmi, film grain ve motion blur ekledim. 1080p test build'inde ölçtüğüm üç noktada 110+ FPS aldım. Koşma ve zombi kovalamacası bu ölçüme dahil değil.",
+        },
+        {
+          title: "Hazır içerikler",
+          items: [
+            "Çevre ve obje paketleri: Industrial, SciFiCapsule, Realistic Terrain Textures Lite, GrassFlowersFREE ve diğer Asset Store paketleri",
+            "Kan efekti: Blood Gush (BloodDecalsAndEffects)",
+            "Silah sesleri: FreeWeaponSFX",
+          ],
+        },
+      ],
     },
     contact: {
       label: "İletişim",
